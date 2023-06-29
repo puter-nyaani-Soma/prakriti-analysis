@@ -1,0 +1,945 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2839pt" height="956pt" viewBox="0.00 0.00 2838.60 956.00">
+<g id="graph0" class="graph" transform="translate(4,952) scale(1)" data-name="Tree">
+
+<polygon fill="white" stroke="none" points="-4,4 -4,-952 2834.6,-952 2834.6,4 -4,4" style=""/>
+<!-- 0 -->
+<g id="node1" class="node" pointer-events="visible" data-name="0">
+
+<polygon fill="#b4daf5" stroke="black" points="2107.69,-948.1 1878.91,-948.1 1878.91,-872.7 2107.69,-872.7 2107.69,-948.1" style=""/>
+<text text-anchor="middle" x="1993.3" y="-931.4" font-family="Helvetica,sans-Serif" font-size="14.00" style="">Body Weight &lt;= 1.5</text>
+<text text-anchor="middle" x="1993.3" y="-914.6" font-family="Helvetica,sans-Serif" font-size="14.00" style="">samples = 960</text>
+<text text-anchor="middle" x="1993.3" y="-897.8" font-family="Helvetica,sans-Serif" font-size="14.00" style="">value = [216, 111, 63, 499, 33, 38]</text>
+<text text-anchor="middle" x="1993.3" y="-881" font-family="Helvetica,sans-Serif" font-size="14.00" style="">class = vata+pitta</text>
+</g>
+<!-- 1 -->
+<g id="node2" class="node" pointer-events="visible" data-name="1">
+
+<polygon fill="#a4d2f3" stroke="black" points="1723.91,-836.9 1502.7,-836.9 1502.7,-761.5 1723.91,-761.5 1723.91,-836.9" style=""/>
+<text text-anchor="middle" x="1613.3" y="-820.2" font-family="Helvetica,sans-Serif" font-size="14.00" style="">A11etite &lt;= 0.5</text>
+<text text-anchor="middle" x="1613.3" y="-803.4" font-family="Helvetica,sans-Serif" font-size="14.00" style="">samples = 795</text>
+<text text-anchor="middle" x="1613.3" y="-786.6" font-family="Helvetica,sans-Serif" font-size="14.00" style="">value = [194, 111, 0, 470, 10, 10]</text>
+<text text-anchor="middle" x="1613.3" y="-769.8" font-family="Helvetica,sans-Serif" font-size="14.00" style="">class = vata+pitta</text>
+</g>
+<!-- 0&#45;&gt;1 -->
+<g id="edge1" class="edge" data-name="0-&gt;1">
+
+<path fill="none" stroke="black" d="M1878.77,-876.49C1832.97,-863.33 1780.18,-848.16 1733.8,-834.83" style=""/>
+<polygon fill="black" stroke="black" points="1734.58,-831.41 1724.01,-832.01 1732.65,-838.14 1734.58,-831.41" style=""/>
+<text text-anchor="middle" x="1736.11" y="-849.69" font-family="Helvetica,sans-Serif" font-size="14.00" style="">True</text>
+</g>
+<!-- 52 -->
+<g id="node53" class="node" pointer-events="visible" data-name="52">
+
+<polygon fill="#cef8e0" stroke="black" points="2381.05,-836.9 2183.55,-836.9 2183.55,-761.5 2381.05,-761.5 2381.05,-836.9" style=""/>
+<text text-anchor="middle" x="2282.3" y="-820.2" font-family="Helvetica,sans-Serif" font-size="14.00" style="">Com1lexion &lt;= 1.5</text>
+<text text-anchor="middle" x="2282.3" y="-803.4" font-family="Helvetica,sans-Serif" font-size="14.00" style="">samples = 165</text>
+<text text-anchor="middle" x="2282.3" y="-786.6" font-family="Helvetica,sans-Serif" font-size="14.00" style="">value = [22, 0, 63, 29, 23, 28]</text>
+<text text-anchor="middle" x="2282.3" y="-769.8" font-family="Helvetica,sans-Serif" font-size="14.00" style="">class = kapha</text>
+</g>
+<!-- 0&#45;&gt;52 -->
+<g id="edge52" class="edge" data-name="0-&gt;52">
+
+<path fill="none" stroke="black" d="M2090.34,-872.73C2117.74,-862.38 2147.7,-851.06 2175.64,-840.5" style=""/>
+<polygon fill="black" stroke="black" points="2176.91,-843.76 2185.03,-836.95 2174.44,-837.22 2176.91,-843.76" style=""/>
+<text text-anchor="middle" x="2174.74" y="-855.54" font-family="Helvetica,sans-Serif" font-size="14.00" style="">False</text>
+</g>
+<!-- 2 -->
+<g id="node3" class="node" pointer-events="visible" data-name="2">
+
+<polygon fill="#fefbf9" stroke="black" points="1010.84,-725.7 805.77,-725.7 805.77,-650.3 1010.84,-650.3 1010.84,-725.7" style=""/>
+<text text-anchor="middle" x="908.3" y="-709" font-family="Helvetica,sans-Serif" font-size="14.00" style="">Cheeks &lt;= 0.5</text>
+<text text-anchor="middle" x="908.3" y="-692.2" font-family="Helvetica,sans-Serif" font-size="14.00" style="">samples = 353</text>
+<text text-anchor="middle" x="908.3" y="-675.4" font-family="Helvetica,sans-Serif" font-size="14.00" style="">value = [166, 17, 0, 160, 0, 10]</text>
+<text text-anchor="middle" x="908.3" y="-658.6" font-family="Helvetica,sans-Serif" font-size="14.00" style="">class = vata</text>
+</g>
+<!-- 1&#45;&gt;2 -->
+<g id="edge2" class="edge" data-name="1-&gt;2">
+
+<path fill="none" stroke="black" d="M1502.37,-781.02C1370.95,-760.66 1153.2,-726.93 1021.01,-706.46" style=""/>
+<polygon fill="black" stroke="black" points="1021.27,-702.96 1010.86,-704.88 1020.2,-709.87 1021.27,-702.96" style=""/>
+</g>
+<!-- 29 -->
+<g id="node30" class="node" pointer-events="visible" data-name="29">
+
+<polygon fill="#84c2ef" stroke="black" points="1712.05,-725.7 1514.55,-725.7 1514.55,-650.3 1712.05,-650.3 1712.05,-725.7" style=""/>
+<text text-anchor="middle" x="1613.3" y="-709" font-family="Helvetica,sans-Serif" font-size="14.00" style="">Nails &lt;= 0.5</text>
+<text text-anchor="middle" x="1613.3" y="-692.2" font-family="Helvetica,sans-Serif" font-size="14.00" style="">samples = 442</text>
+<text text-anchor="middle" x="1613.3" y="-675.4" font-family="Helvetica,sans-Serif" font-size="14.00" style="">value = [28, 94, 0, 310, 10, 0]</text>
+<text text-anchor="middle" x="1613.3" y="-658.6" font-family="Helvetica,sans-Serif" font-size="14.00" style="">class = vata+pitta</text>
+</g>
+<!-- 1&#45;&gt;29 -->
+<g id="edge29" class="edge" data-name="1-&gt;29">
+
+<path fill="none" stroke="black" d="M1613.3,-761.53C1613.3,-753.34 1613.3,-744.54 1613.3,-736" style=""/>
+<polygon fill="black" stroke="black" points="1616.8,-735.75 1613.3,-725.75 1609.8,-735.75 1616.8,-735.75" style=""/>
+</g>
+<!-- 3 -->
+<g id="node4" class="node" pointer-events="visible" data-name="3">
+
+<polygon fill="#eead7d" stroke="black" points="365.48,-614.5 183.13,-614.5 183.13,-539.1 365.48,-539.1 365.48,-614.5" style=""/>
+<text text-anchor="middle" x="274.3" y="-597.8" font-family="Helvetica,sans-Serif" font-size="14.00" style="">A11earance of Hair &lt;= 0.5</text>
+<text text-anchor="middle" x="274.3" y="-581" font-family="Helvetica,sans-Serif" font-size="14.00" style="">samples = 183</text>
+<text text-anchor="middle" x="274.3" y="-564.2" font-family="Helvetica,sans-Serif" font-size="14.00" style="">value = [136, 0, 0, 47, 0, 0]</text>
+<text text-anchor="middle" x="274.3" y="-547.4" font-family="Helvetica,sans-Serif" font-size="14.00" style="">class = vata</text>
+</g>
+<!-- 2&#45;&gt;3 -->
+<g id="edge3" class="edge" data-name="2-&gt;3">
+
+<path fill="none" stroke="black" d="M805.73,-669.33C687.23,-648.92 493.45,-615.55 375.52,-595.23" style=""/>
+<polygon fill="black" stroke="black" points="375.86,-591.74 365.41,-593.49 374.67,-598.64 375.86,-591.74" style=""/>
+</g>
+<!-- 10 -->
+<g id="node11" class="node" pointer-events="visible" data-name="10">
+
+<polygon fill="#8ac5f0" stroke="black" points="1007.05,-614.5 809.55,-614.5 809.55,-539.1 1007.05,-539.1 1007.05,-614.5" style=""/>
+<text text-anchor="middle" x="908.3" y="-597.8" font-family="Helvetica,sans-Serif" font-size="14.00" style="">Eyelashes &lt;= 1.5</text>
+<text text-anchor="middle" x="908.3" y="-581" font-family="Helvetica,sans-Serif" font-size="14.00" style="">samples = 170</text>
+<text text-anchor="middle" x="908.3" y="-564.2" font-family="Helvetica,sans-Serif" font-size="14.00" style="">value = [30, 17, 0, 113, 0, 10]</text>
+<text text-anchor="middle" x="908.3" y="-547.4" font-family="Helvetica,sans-Serif" font-size="14.00" style="">class = vata+pitta</text>
+</g>
+<!-- 2&#45;&gt;10 -->
+<g id="edge10" class="edge" data-name="2-&gt;10">
+
+<path fill="none" stroke="black" d="M908.3,-650.33C908.3,-642.14 908.3,-633.34 908.3,-624.8" style=""/>
+<polygon fill="black" stroke="black" points="911.8,-624.55 908.3,-614.55 904.8,-624.55 911.8,-624.55" style=""/>
+</g>
+<!-- 4 -->
+<g id="node5" class="node" pointer-events="visible" data-name="4">
+
+<polygon fill="#e58139" stroke="black" points="169.4,-495 3.2,-495 3.2,-436.2 169.4,-436.2 169.4,-495" style=""/>
+<text text-anchor="middle" x="86.3" y="-478.2" font-family="Helvetica,sans-Serif" font-size="14.00" style="">samples = 98</text>
+<text text-anchor="middle" x="86.3" y="-461.4" font-family="Helvetica,sans-Serif" font-size="14.00" style="">value = [98, 0, 0, 0, 0, 0]</text>
+<text text-anchor="middle" x="86.3" y="-444.6" font-family="Helvetica,sans-Serif" font-size="14.00" style="">class = vata</text>
+</g>
+<!-- 3&#45;&gt;4 -->
+<g id="edge4" class="edge" data-name="3-&gt;4">
+
+<path fill="none" stroke="black" d="M211.18,-539.13C189.43,-526.5 165.2,-512.43 143.92,-500.07" style=""/>
+<polygon fill="black" stroke="black" points="145.4,-496.88 134.99,-494.88 141.88,-502.93 145.4,-496.88" style=""/>
+</g>
+<!-- 5 -->
+<g id="node6" class="node" pointer-events="visible" data-name="5">
+
+<polygon fill="#d9ecfa" stroke="black" points="361.69,-503.3 186.91,-503.3 186.91,-427.9 361.69,-427.9 361.69,-503.3" style=""/>
+<text text-anchor="middle" x="274.3" y="-486.6" font-family="Helvetica,sans-Serif" font-size="14.00" style="">Nails &lt;= 0.5</text>
+<text text-anchor="middle" x="274.3" y="-469.8" font-family="Helvetica,sans-Serif" font-size="14.00" style="">samples = 85</text>
+<text text-anchor="middle" x="274.3" y="-453" font-family="Helvetica,sans-Serif" font-size="14.00" style="">value = [38, 0, 0, 47, 0, 0]</text>
+<text text-anchor="middle" x="274.3" y="-436.2" font-family="Helvetica,sans-Serif" font-size="14.00" style="">class = vata+pitta</text>
+</g>
+<!-- 3&#45;&gt;5 -->
+<g id="edge5" class="edge" data-name="3-&gt;5">
+
+<path fill="none" stroke="black" d="M274.3,-539.13C274.3,-530.94 274.3,-522.14 274.3,-513.6" style=""/>
+<polygon fill="black" stroke="black" points="277.8,-513.35 274.3,-503.35 270.8,-513.35 277.8,-513.35" style=""/>
+</g>
+<!-- 6 -->
+<g id="node7" class="node" pointer-events="visible" data-name="6">
+
+<polygon fill="#e58139" stroke="black" points="166.4,-383.8 0.2,-383.8 0.2,-325 166.4,-325 166.4,-383.8" style=""/>
+<text text-anchor="middle" x="83.3" y="-367" font-family="Helvetica,sans-Serif" font-size="14.00" style="">samples = 29</text>
+<text text-anchor="middle" x="83.3" y="-350.2" font-family="Helvetica,sans-Serif" font-size="14.00" style="">value = [29, 0, 0, 0, 0, 0]</text>
+<text text-anchor="middle" x="83.3" y="-333.4" font-family="Helvetica,sans-Serif" font-size="14.00" style="">class = vata</text>
+</g>
+<!-- 5&#45;&gt;6 -->
+<g id="edge6" class="edge" data-name="5-&gt;6">
+
+<path fill="none" stroke="black" d="M210.17,-427.93C187.98,-415.25 163.24,-401.1 141.55,-388.7" style=""/>
+<polygon fill="black" stroke="black" points="143.19,-385.61 132.77,-383.68 139.71,-391.68 143.19,-385.61" style=""/>
+</g>
+<!-- 7 -->
+<g id="node8" class="node" pointer-events="visible" data-name="7">
+
+<polygon fill="#5fb0ea" stroke="black" points="364.51,-392.1 184.09,-392.1 184.09,-316.7 364.51,-316.7 364.51,-392.1" style=""/>
+<text text-anchor="middle" x="274.3" y="-375.4" font-family="Helvetica,sans-Serif" font-size="14.00" style="">General feel of skin &lt;= 1.5</text>
+<text text-anchor="middle" x="274.3" y="-358.6" font-family="Helvetica,sans-Serif" font-size="14.00" style="">samples = 56</text>
+<text text-anchor="middle" x="274.3" y="-341.8" font-family="Helvetica,sans-Serif" font-size="14.00" style="">value = [9, 0, 0, 47, 0, 0]</text>
+<text text-anchor="middle" x="274.3" y="-325" font-family="Helvetica,sans-Serif" font-size="14.00" style="">class = vata+pitta</text>
+</g>
+<!-- 5&#45;&gt;7 -->
+<g id="edge7" class="edge" data-name="5-&gt;7">
+
+<path fill="none" stroke="black" d="M274.3,-427.93C274.3,-419.74 274.3,-410.94 274.3,-402.4" style=""/>
+<polygon fill="black" stroke="black" points="277.8,-402.15 274.3,-392.15 270.8,-402.15 277.8,-402.15" style=""/>
+</g>
+<!-- 8 -->
+<g id="node9" class="node" pointer-events="visible" data-name="8">
+
+<polygon fill="#399de5" stroke="black" points="176.4,-272.6 10.2,-272.6 10.2,-213.8 176.4,-213.8 176.4,-272.6" style=""/>
+<text text-anchor="middle" x="93.3" y="-255.8" font-family="Helvetica,sans-Serif" font-size="14.00" style="">samples = 47</text>
+<text text-anchor="middle" x="93.3" y="-239" font-family="Helvetica,sans-Serif" font-size="14.00" style="">value = [0, 0, 0, 47, 0, 0]</text>
+<text text-anchor="middle" x="93.3" y="-222.2" font-family="Helvetica,sans-Serif" font-size="14.00" style="">class = vata+pitta</text>
+</g>
+<!-- 7&#45;&gt;8 -->
+<g id="edge8" class="edge" data-name="7-&gt;8">
+
+<path fill="none" stroke="black" d="M213.53,-316.73C192.59,-304.1 169.26,-290.03 148.77,-277.67" style=""/>
+<polygon fill="black" stroke="black" points="150.55,-274.65 140.18,-272.48 146.93,-280.64 150.55,-274.65" style=""/>
+</g>
+<!-- 9 -->
+<g id="node10" class="node" pointer-events="visible" data-name="9">
+
+<polygon fill="#e58139" stroke="black" points="353.62,-272.6 194.98,-272.6 194.98,-213.8 353.62,-213.8 353.62,-272.6" style=""/>
+<text text-anchor="middle" x="274.3" y="-255.8" font-family="Helvetica,sans-Serif" font-size="14.00" style="">samples = 9</text>
+<text text-anchor="middle" x="274.3" y="-239" font-family="Helvetica,sans-Serif" font-size="14.00" style="">value = [9, 0, 0, 0, 0, 0]</text>
+<text text-anchor="middle" x="274.3" y="-222.2" font-family="Helvetica,sans-Serif" font-size="14.00" style="">class = vata</text>
+</g>
+<!-- 7&#45;&gt;9 -->
+<g id="edge9" class="edge" data-name="7-&gt;9">
+
+<path fill="none" stroke="black" d="M274.3,-316.73C274.3,-305.84 274.3,-293.88 274.3,-282.86" style=""/>
+<polygon fill="black" stroke="black" points="277.8,-282.65 274.3,-272.65 270.8,-282.65 277.8,-282.65" style=""/>
+</g>
+<!-- 11 -->
+<g id="node12" class="node" pointer-events="visible" data-name="11">
+
+<polygon fill="#71b9ec" stroke="black" points="903.26,-503.3 713.34,-503.3 713.34,-427.9 903.26,-427.9 903.26,-503.3" style=""/>
+<text text-anchor="middle" x="808.3" y="-486.6" font-family="Helvetica,sans-Serif" font-size="14.00" style="">Texture of Skin &lt;= 1.5</text>
+<text text-anchor="middle" x="808.3" y="-469.8" font-family="Helvetica,sans-Serif" font-size="14.00" style="">samples = 150</text>
+<text text-anchor="middle" x="808.3" y="-453" font-family="Helvetica,sans-Serif" font-size="14.00" style="">value = [20, 17, 0, 113, 0, 0]</text>
+<text text-anchor="middle" x="808.3" y="-436.2" font-family="Helvetica,sans-Serif" font-size="14.00" style="">class = vata+pitta</text>
+</g>
+<!-- 10&#45;&gt;11 -->
+<g id="edge11" class="edge" data-name="10-&gt;11">
+
+<path fill="none" stroke="black" d="M874.72,-539.13C866.4,-530.04 857.39,-520.2 848.77,-510.79" style=""/>
+<polygon fill="black" stroke="black" points="851.29,-508.37 841.96,-503.35 846.13,-513.09 851.29,-508.37" style=""/>
+</g>
+<!-- 26 -->
+<g id="node27" class="node" pointer-events="visible" data-name="26">
+
+<polygon fill="#ffffff" stroke="black" points="1095.69,-503.3 920.91,-503.3 920.91,-427.9 1095.69,-427.9 1095.69,-503.3" style=""/>
+<text text-anchor="middle" x="1008.3" y="-486.6" font-family="Helvetica,sans-Serif" font-size="14.00" style="">Teeth and gums &lt;= 1.5</text>
+<text text-anchor="middle" x="1008.3" y="-469.8" font-family="Helvetica,sans-Serif" font-size="14.00" style="">samples = 20</text>
+<text text-anchor="middle" x="1008.3" y="-453" font-family="Helvetica,sans-Serif" font-size="14.00" style="">value = [10, 0, 0, 0, 0, 10]</text>
+<text text-anchor="middle" x="1008.3" y="-436.2" font-family="Helvetica,sans-Serif" font-size="14.00" style="">class = vata</text>
+</g>
+<!-- 10&#45;&gt;26 -->
+<g id="edge26" class="edge" data-name="10-&gt;26">
+
+<path fill="none" stroke="black" d="M941.88,-539.13C950.21,-530.04 959.22,-520.2 967.84,-510.79" style=""/>
+<polygon fill="black" stroke="black" points="970.47,-513.09 974.64,-503.35 965.31,-508.37 970.47,-513.09" style=""/>
+</g>
+<!-- 12 -->
+<g id="node13" class="node" pointer-events="visible" data-name="12">
+
+<polygon fill="#fdf8f3" stroke="black" points="703.62,-392.1 544.98,-392.1 544.98,-316.7 703.62,-316.7 703.62,-392.1" style=""/>
+<text text-anchor="middle" x="624.3" y="-375.4" font-family="Helvetica,sans-Serif" font-size="14.00" style="">Bone Structure &lt;= 0.5</text>
+<text text-anchor="middle" x="624.3" y="-358.6" font-family="Helvetica,sans-Serif" font-size="14.00" style="">samples = 25</text>
+<text text-anchor="middle" x="624.3" y="-341.8" font-family="Helvetica,sans-Serif" font-size="14.00" style="">value = [9, 8, 0, 8, 0, 0]</text>
+<text text-anchor="middle" x="624.3" y="-325" font-family="Helvetica,sans-Serif" font-size="14.00" style="">class = vata</text>
+</g>
+<!-- 11&#45;&gt;12 -->
+<g id="edge12" class="edge" data-name="11-&gt;12">
+
+<path fill="none" stroke="black" d="M746.52,-427.93C729.98,-418.12 711.98,-407.44 695,-397.36" style=""/>
+<polygon fill="black" stroke="black" points="696.62,-394.25 686.23,-392.15 693.05,-400.27 696.62,-394.25" style=""/>
+</g>
+<!-- 17 -->
+<g id="node18" class="node" pointer-events="visible" data-name="17">
+
+<polygon fill="#5caeea" stroke="black" points="903.48,-392.1 721.13,-392.1 721.13,-316.7 903.48,-316.7 903.48,-392.1" style=""/>
+<text text-anchor="middle" x="812.3" y="-375.4" font-family="Helvetica,sans-Serif" font-size="14.00" style="">Hair Color &lt;= 1.5</text>
+<text text-anchor="middle" x="812.3" y="-358.6" font-family="Helvetica,sans-Serif" font-size="14.00" style="">samples = 125</text>
+<text text-anchor="middle" x="812.3" y="-341.8" font-family="Helvetica,sans-Serif" font-size="14.00" style="">value = [11, 9, 0, 105, 0, 0]</text>
+<text text-anchor="middle" x="812.3" y="-325" font-family="Helvetica,sans-Serif" font-size="14.00" style="">class = vata+pitta</text>
+</g>
+<!-- 11&#45;&gt;17 -->
+<g id="edge17" class="edge" data-name="11-&gt;17">
+
+<path fill="none" stroke="black" d="M809.64,-427.93C809.94,-419.74 810.27,-410.94 810.58,-402.4" style=""/>
+<polygon fill="black" stroke="black" points="814.09,-402.28 810.95,-392.15 807.09,-402.02 814.09,-402.28" style=""/>
+</g>
+<!-- 13 -->
+<g id="node14" class="node" pointer-events="visible" data-name="13">
+
+<polygon fill="#e58139" stroke="black" points="530.62,-272.6 371.98,-272.6 371.98,-213.8 530.62,-213.8 530.62,-272.6" style=""/>
+<text text-anchor="middle" x="451.3" y="-255.8" font-family="Helvetica,sans-Serif" font-size="14.00" style="">samples = 9</text>
+<text text-anchor="middle" x="451.3" y="-239" font-family="Helvetica,sans-Serif" font-size="14.00" style="">value = [9, 0, 0, 0, 0, 0]</text>
+<text text-anchor="middle" x="451.3" y="-222.2" font-family="Helvetica,sans-Serif" font-size="14.00" style="">class = vata</text>
+</g>
+<!-- 12&#45;&gt;13 -->
+<g id="edge13" class="edge" data-name="12-&gt;13">
+
+<path fill="none" stroke="black" d="M566.21,-316.73C546.29,-304.16 524.1,-290.15 504.58,-277.83" style=""/>
+<polygon fill="black" stroke="black" points="506.43,-274.86 496.11,-272.48 502.69,-280.78 506.43,-274.86" style=""/>
+</g>
+<!-- 14 -->
+<g id="node15" class="node" pointer-events="visible" data-name="14">
+
+<polygon fill="#ffffff" stroke="black" points="707.62,-280.9 548.98,-280.9 548.98,-205.5 707.62,-205.5 707.62,-280.9" style=""/>
+<text text-anchor="middle" x="628.3" y="-264.2" font-family="Helvetica,sans-Serif" font-size="14.00" style="">Eyelashes &lt;= 0.5</text>
+<text text-anchor="middle" x="628.3" y="-247.4" font-family="Helvetica,sans-Serif" font-size="14.00" style="">samples = 16</text>
+<text text-anchor="middle" x="628.3" y="-230.6" font-family="Helvetica,sans-Serif" font-size="14.00" style="">value = [0, 8, 0, 8, 0, 0]</text>
+<text text-anchor="middle" x="628.3" y="-213.8" font-family="Helvetica,sans-Serif" font-size="14.00" style="">class = pitta</text>
+</g>
+<!-- 12&#45;&gt;14 -->
+<g id="edge14" class="edge" data-name="12-&gt;14">
+
+<path fill="none" stroke="black" d="M625.64,-316.73C625.94,-308.54 626.27,-299.74 626.58,-291.2" style=""/>
+<polygon fill="black" stroke="black" points="630.09,-291.08 626.95,-280.95 623.09,-290.82 630.09,-291.08" style=""/>
+</g>
+<!-- 15 -->
+<g id="node16" class="node" pointer-events="visible" data-name="15">
+
+<polygon fill="#399de5" stroke="black" points="530.62,-161.4 371.98,-161.4 371.98,-102.6 530.62,-102.6 530.62,-161.4" style=""/>
+<text text-anchor="middle" x="451.3" y="-144.6" font-family="Helvetica,sans-Serif" font-size="14.00" style="">samples = 8</text>
+<text text-anchor="middle" x="451.3" y="-127.8" font-family="Helvetica,sans-Serif" font-size="14.00" style="">value = [0, 0, 0, 8, 0, 0]</text>
+<text text-anchor="middle" x="451.3" y="-111" font-family="Helvetica,sans-Serif" font-size="14.00" style="">class = vata+pitta</text>
+</g>
+<!-- 14&#45;&gt;15 -->
+<g id="edge15" class="edge" data-name="14-&gt;15">
+
+<path fill="none" stroke="black" d="M568.87,-205.53C548.49,-192.96 525.79,-178.95 505.81,-166.63" style=""/>
+<polygon fill="black" stroke="black" points="507.49,-163.55 497.14,-161.28 503.81,-169.51 507.49,-163.55" style=""/>
+</g>
+<!-- 16 -->
+<g id="node17" class="node" pointer-events="visible" data-name="16">
+
+<polygon fill="#9de539" stroke="black" points="707.62,-161.4 548.98,-161.4 548.98,-102.6 707.62,-102.6 707.62,-161.4" style=""/>
+<text text-anchor="middle" x="628.3" y="-144.6" font-family="Helvetica,sans-Serif" font-size="14.00" style="">samples = 8</text>
+<text text-anchor="middle" x="628.3" y="-127.8" font-family="Helvetica,sans-Serif" font-size="14.00" style="">value = [0, 8, 0, 0, 0, 0]</text>
+<text text-anchor="middle" x="628.3" y="-111" font-family="Helvetica,sans-Serif" font-size="14.00" style="">class = pitta</text>
+</g>
+<!-- 14&#45;&gt;16 -->
+<g id="edge16" class="edge" data-name="14-&gt;16">
+
+<path fill="none" stroke="black" d="M628.3,-205.53C628.3,-194.64 628.3,-182.68 628.3,-171.66" style=""/>
+<polygon fill="black" stroke="black" points="631.8,-171.45 628.3,-161.45 624.8,-171.45 631.8,-171.45" style=""/>
+</g>
+<!-- 18 -->
+<g id="node19" class="node" pointer-events="visible" data-name="18">
+
+<polygon fill="#4ca6e7" stroke="black" points="895.4,-280.9 729.2,-280.9 729.2,-205.5 895.4,-205.5 895.4,-280.9" style=""/>
+<text text-anchor="middle" x="812.3" y="-264.2" font-family="Helvetica,sans-Serif" font-size="14.00" style="">Sha1e of face &lt;= 1.5</text>
+<text text-anchor="middle" x="812.3" y="-247.4" font-family="Helvetica,sans-Serif" font-size="14.00" style="">samples = 105</text>
+<text text-anchor="middle" x="812.3" y="-230.6" font-family="Helvetica,sans-Serif" font-size="14.00" style="">value = [0, 9, 0, 96, 0, 0]</text>
+<text text-anchor="middle" x="812.3" y="-213.8" font-family="Helvetica,sans-Serif" font-size="14.00" style="">class = vata+pitta</text>
+</g>
+<!-- 17&#45;&gt;18 -->
+<g id="edge18" class="edge" data-name="17-&gt;18">
+
+<path fill="none" stroke="black" d="M812.3,-316.73C812.3,-308.54 812.3,-299.74 812.3,-291.2" style=""/>
+<polygon fill="black" stroke="black" points="815.8,-290.95 812.3,-280.95 808.8,-290.95 815.8,-290.95" style=""/>
+</g>
+<!-- 23 -->
+<g id="node24" class="node" pointer-events="visible" data-name="23">
+
+<polygon fill="#fae8db" stroke="black" points="1250.4,-280.9 1084.2,-280.9 1084.2,-205.5 1250.4,-205.5 1250.4,-280.9" style=""/>
+<text text-anchor="middle" x="1167.3" y="-264.2" font-family="Helvetica,sans-Serif" font-size="14.00" style="">Cheeks &lt;= 1.5</text>
+<text text-anchor="middle" x="1167.3" y="-247.4" font-family="Helvetica,sans-Serif" font-size="14.00" style="">samples = 20</text>
+<text text-anchor="middle" x="1167.3" y="-230.6" font-family="Helvetica,sans-Serif" font-size="14.00" style="">value = [11, 0, 0, 9, 0, 0]</text>
+<text text-anchor="middle" x="1167.3" y="-213.8" font-family="Helvetica,sans-Serif" font-size="14.00" style="">class = vata</text>
+</g>
+<!-- 17&#45;&gt;23 -->
+<g id="edge23" class="edge" data-name="17-&gt;23">
+
+<path fill="none" stroke="black" d="M903.49,-319.71C906.46,-318.72 909.4,-317.74 912.3,-316.8 965.54,-299.5 1025.75,-282.25 1074.29,-268.91" style=""/>
+<polygon fill="black" stroke="black" points="1075.43,-272.23 1084.15,-266.21 1073.58,-265.48 1075.43,-272.23" style=""/>
+</g>
+<!-- 19 -->
+<g id="node20" class="node" pointer-events="visible" data-name="19">
+
+<polygon fill="#399de5" stroke="black" points="892.4,-161.4 726.2,-161.4 726.2,-102.6 892.4,-102.6 892.4,-161.4" style=""/>
+<text text-anchor="middle" x="809.3" y="-144.6" font-family="Helvetica,sans-Serif" font-size="14.00" style="">samples = 88</text>
+<text text-anchor="middle" x="809.3" y="-127.8" font-family="Helvetica,sans-Serif" font-size="14.00" style="">value = [0, 0, 0, 88, 0, 0]</text>
+<text text-anchor="middle" x="809.3" y="-111" font-family="Helvetica,sans-Serif" font-size="14.00" style="">class = vata+pitta</text>
+</g>
+<!-- 18&#45;&gt;19 -->
+<g id="edge19" class="edge" data-name="18-&gt;19">
+
+<path fill="none" stroke="black" d="M811.29,-205.53C810.99,-194.64 810.67,-182.68 810.36,-171.66" style=""/>
+<polygon fill="black" stroke="black" points="813.86,-171.35 810.08,-161.45 806.86,-171.55 813.86,-171.35" style=""/>
+</g>
+<!-- 20 -->
+<g id="node21" class="node" pointer-events="visible" data-name="20">
+
+<polygon fill="#f4fce9" stroke="black" points="1069.62,-169.7 910.98,-169.7 910.98,-94.3 1069.62,-94.3 1069.62,-169.7" style=""/>
+<text text-anchor="middle" x="990.3" y="-153" font-family="Helvetica,sans-Serif" font-size="14.00" style="">Nails &lt;= 1.5</text>
+<text text-anchor="middle" x="990.3" y="-136.2" font-family="Helvetica,sans-Serif" font-size="14.00" style="">samples = 17</text>
+<text text-anchor="middle" x="990.3" y="-119.4" font-family="Helvetica,sans-Serif" font-size="14.00" style="">value = [0, 9, 0, 8, 0, 0]</text>
+<text text-anchor="middle" x="990.3" y="-102.6" font-family="Helvetica,sans-Serif" font-size="14.00" style="">class = pitta</text>
+</g>
+<!-- 18&#45;&gt;20 -->
+<g id="edge20" class="edge" data-name="18-&gt;20">
+
+<path fill="none" stroke="black" d="M872.07,-205.53C887.92,-195.81 905.16,-185.23 921.45,-175.24" style=""/>
+<polygon fill="black" stroke="black" points="923.7,-177.97 930.39,-169.75 920.04,-172 923.7,-177.97" style=""/>
+</g>
+<!-- 21 -->
+<g id="node22" class="node" pointer-events="visible" data-name="21">
+
+<polygon fill="#9de539" stroke="black" points="981.62,-58.6 822.98,-58.6 822.98,0.2 981.62,0.2 981.62,-58.6" style=""/>
+<text text-anchor="middle" x="902.3" y="-41.8" font-family="Helvetica,sans-Serif" font-size="14.00" style="">samples = 9</text>
+<text text-anchor="middle" x="902.3" y="-25" font-family="Helvetica,sans-Serif" font-size="14.00" style="">value = [0, 9, 0, 0, 0, 0]</text>
+<text text-anchor="middle" x="902.3" y="-8.2" font-family="Helvetica,sans-Serif" font-size="14.00" style="">class = pitta</text>
+</g>
+<!-- 20&#45;&gt;21 -->
+<g id="edge21" class="edge" data-name="20-&gt;21">
+
+<path fill="none" stroke="black" d="M958.28,-94.32C950.3,-85.18 941.75,-75.39 933.79,-66.27" style=""/>
+<polygon fill="black" stroke="black" points="936.2,-63.7 926.98,-58.47 930.92,-68.31 936.2,-63.7" style=""/>
+</g>
+<!-- 22 -->
+<g id="node23" class="node" pointer-events="visible" data-name="22">
+
+<polygon fill="#399de5" stroke="black" points="1158.62,-58.6 999.98,-58.6 999.98,0.2 1158.62,0.2 1158.62,-58.6" style=""/>
+<text text-anchor="middle" x="1079.3" y="-41.8" font-family="Helvetica,sans-Serif" font-size="14.00" style="">samples = 8</text>
+<text text-anchor="middle" x="1079.3" y="-25" font-family="Helvetica,sans-Serif" font-size="14.00" style="">value = [0, 0, 0, 8, 0, 0]</text>
+<text text-anchor="middle" x="1079.3" y="-8.2" font-family="Helvetica,sans-Serif" font-size="14.00" style="">class = vata+pitta</text>
+</g>
+<!-- 20&#45;&gt;22 -->
+<g id="edge22" class="edge" data-name="20-&gt;22">
+
+<path fill="none" stroke="black" d="M1022.68,-94.32C1030.84,-85.09 1039.58,-75.19 1047.7,-66" style=""/>
+<polygon fill="black" stroke="black" points="1050.34,-68.28 1054.34,-58.47 1045.1,-63.65 1050.34,-68.28" style=""/>
+</g>
+<!-- 24 -->
+<g id="node25" class="node" pointer-events="visible" data-name="24">
+
+<polygon fill="#399de5" stroke="black" points="1246.62,-161.4 1087.98,-161.4 1087.98,-102.6 1246.62,-102.6 1246.62,-161.4" style=""/>
+<text text-anchor="middle" x="1167.3" y="-144.6" font-family="Helvetica,sans-Serif" font-size="14.00" style="">samples = 9</text>
+<text text-anchor="middle" x="1167.3" y="-127.8" font-family="Helvetica,sans-Serif" font-size="14.00" style="">value = [0, 0, 0, 9, 0, 0]</text>
+<text text-anchor="middle" x="1167.3" y="-111" font-family="Helvetica,sans-Serif" font-size="14.00" style="">class = vata+pitta</text>
+</g>
+<!-- 23&#45;&gt;24 -->
+<g id="edge24" class="edge" data-name="23-&gt;24">
+
+<path fill="none" stroke="black" d="M1167.3,-205.53C1167.3,-194.64 1167.3,-182.68 1167.3,-171.66" style=""/>
+<polygon fill="black" stroke="black" points="1170.8,-171.45 1167.3,-161.45 1163.8,-171.45 1170.8,-171.45" style=""/>
+</g>
+<!-- 25 -->
+<g id="node26" class="node" pointer-events="visible" data-name="25">
+
+<polygon fill="#e58139" stroke="black" points="1431.4,-161.4 1265.2,-161.4 1265.2,-102.6 1431.4,-102.6 1431.4,-161.4" style=""/>
+<text text-anchor="middle" x="1348.3" y="-144.6" font-family="Helvetica,sans-Serif" font-size="14.00" style="">samples = 11</text>
+<text text-anchor="middle" x="1348.3" y="-127.8" font-family="Helvetica,sans-Serif" font-size="14.00" style="">value = [11, 0, 0, 0, 0, 0]</text>
+<text text-anchor="middle" x="1348.3" y="-111" font-family="Helvetica,sans-Serif" font-size="14.00" style="">class = vata</text>
+</g>
+<!-- 23&#45;&gt;25 -->
+<g id="edge25" class="edge" data-name="23-&gt;25">
+
+<path fill="none" stroke="black" d="M1228.08,-205.53C1249.01,-192.9 1272.34,-178.83 1292.83,-166.47" style=""/>
+<polygon fill="black" stroke="black" points="1294.67,-169.44 1301.43,-161.28 1291.05,-163.45 1294.67,-169.44" style=""/>
+</g>
+<!-- 27 -->
+<g id="node28" class="node" pointer-events="visible" data-name="27">
+
+<polygon fill="#e58139" stroke="black" points="1087.4,-383.8 921.2,-383.8 921.2,-325 1087.4,-325 1087.4,-383.8" style=""/>
+<text text-anchor="middle" x="1004.3" y="-367" font-family="Helvetica,sans-Serif" font-size="14.00" style="">samples = 10</text>
+<text text-anchor="middle" x="1004.3" y="-350.2" font-family="Helvetica,sans-Serif" font-size="14.00" style="">value = [10, 0, 0, 0, 0, 0]</text>
+<text text-anchor="middle" x="1004.3" y="-333.4" font-family="Helvetica,sans-Serif" font-size="14.00" style="">class = vata</text>
+</g>
+<!-- 26&#45;&gt;27 -->
+<g id="edge27" class="edge" data-name="26-&gt;27">
+
+<path fill="none" stroke="black" d="M1006.96,-427.93C1006.56,-417.04 1006.12,-405.08 1005.72,-394.06" style=""/>
+<polygon fill="black" stroke="black" points="1009.21,-393.72 1005.34,-383.85 1002.21,-393.98 1009.21,-393.72" style=""/>
+</g>
+<!-- 28 -->
+<g id="node29" class="node" pointer-events="visible" data-name="28">
+
+<polygon fill="#e5399d" stroke="black" points="1272.4,-383.8 1106.2,-383.8 1106.2,-325 1272.4,-325 1272.4,-383.8" style=""/>
+<text text-anchor="middle" x="1189.3" y="-367" font-family="Helvetica,sans-Serif" font-size="14.00" style="">samples = 10</text>
+<text text-anchor="middle" x="1189.3" y="-350.2" font-family="Helvetica,sans-Serif" font-size="14.00" style="">value = [0, 0, 0, 0, 0, 10]</text>
+<text text-anchor="middle" x="1189.3" y="-333.4" font-family="Helvetica,sans-Serif" font-size="14.00" style="">class = pitta+kapha</text>
+</g>
+<!-- 26&#45;&gt;28 -->
+<g id="edge28" class="edge" data-name="26-&gt;28">
+
+<path fill="none" stroke="black" d="M1069.08,-427.93C1090.01,-415.3 1113.34,-401.23 1133.83,-388.87" style=""/>
+<polygon fill="black" stroke="black" points="1135.67,-391.84 1142.43,-383.68 1132.05,-385.85 1135.67,-391.84" style=""/>
+</g>
+<!-- 30 -->
+<g id="node31" class="node" pointer-events="visible" data-name="30">
+
+<polygon fill="#56abe9" stroke="black" points="1600.48,-614.5 1418.13,-614.5 1418.13,-539.1 1600.48,-539.1 1600.48,-614.5" style=""/>
+<text text-anchor="middle" x="1509.3" y="-597.8" font-family="Helvetica,sans-Serif" font-size="14.00" style="">Nose &lt;= 0.5</text>
+<text text-anchor="middle" x="1509.3" y="-581" font-family="Helvetica,sans-Serif" font-size="14.00" style="">samples = 191</text>
+<text text-anchor="middle" x="1509.3" y="-564.2" font-family="Helvetica,sans-Serif" font-size="14.00" style="">value = [18, 7, 0, 166, 0, 0]</text>
+<text text-anchor="middle" x="1509.3" y="-547.4" font-family="Helvetica,sans-Serif" font-size="14.00" style="">class = vata+pitta</text>
+</g>
+<!-- 29&#45;&gt;30 -->
+<g id="edge30" class="edge" data-name="29-&gt;30">
+
+<path fill="none" stroke="black" d="M1578.38,-650.33C1569.72,-641.24 1560.35,-631.4 1551.39,-621.99" style=""/>
+<polygon fill="black" stroke="black" points="1553.74,-619.38 1544.31,-614.55 1548.67,-624.21 1553.74,-619.38" style=""/>
+</g>
+<!-- 37 -->
+<g id="node38" class="node" pointer-events="visible" data-name="37">
+
+<polygon fill="#baddf6" stroke="black" points="1816.05,-614.5 1618.55,-614.5 1618.55,-539.1 1816.05,-539.1 1816.05,-614.5" style=""/>
+<text text-anchor="middle" x="1717.3" y="-597.8" font-family="Helvetica,sans-Serif" font-size="14.00" style="">Body Weight &lt;= 0.5</text>
+<text text-anchor="middle" x="1717.3" y="-581" font-family="Helvetica,sans-Serif" font-size="14.00" style="">samples = 251</text>
+<text text-anchor="middle" x="1717.3" y="-564.2" font-family="Helvetica,sans-Serif" font-size="14.00" style="">value = [10, 87, 0, 144, 10, 0]</text>
+<text text-anchor="middle" x="1717.3" y="-547.4" font-family="Helvetica,sans-Serif" font-size="14.00" style="">class = vata+pitta</text>
+</g>
+<!-- 29&#45;&gt;37 -->
+<g id="edge37" class="edge" data-name="29-&gt;37">
+
+<path fill="none" stroke="black" d="M1648.22,-650.33C1656.88,-641.24 1666.25,-631.4 1675.22,-621.99" style=""/>
+<polygon fill="black" stroke="black" points="1677.93,-624.21 1682.3,-614.55 1672.87,-619.38 1677.93,-624.21" style=""/>
+</g>
+<!-- 31 -->
+<g id="node32" class="node" pointer-events="visible" data-name="31">
+
+<polygon fill="#399de5" stroke="black" points="1409.69,-495 1234.91,-495 1234.91,-436.2 1409.69,-436.2 1409.69,-495" style=""/>
+<text text-anchor="middle" x="1322.3" y="-478.2" font-family="Helvetica,sans-Serif" font-size="14.00" style="">samples = 137</text>
+<text text-anchor="middle" x="1322.3" y="-461.4" font-family="Helvetica,sans-Serif" font-size="14.00" style="">value = [0, 0, 0, 137, 0, 0]</text>
+<text text-anchor="middle" x="1322.3" y="-444.6" font-family="Helvetica,sans-Serif" font-size="14.00" style="">class = vata+pitta</text>
+</g>
+<!-- 30&#45;&gt;31 -->
+<g id="edge31" class="edge" data-name="30-&gt;31">
+
+<path fill="none" stroke="black" d="M1446.51,-539.13C1424.88,-526.5 1400.78,-512.43 1379.61,-500.07" style=""/>
+<polygon fill="black" stroke="black" points="1381.13,-496.9 1370.73,-494.88 1377.6,-502.95 1381.13,-496.9" style=""/>
+</g>
+<!-- 32 -->
+<g id="node33" class="node" pointer-events="visible" data-name="32">
+
+<polygon fill="#c2e1f7" stroke="black" points="1601.69,-503.3 1426.91,-503.3 1426.91,-427.9 1601.69,-427.9 1601.69,-503.3" style=""/>
+<text text-anchor="middle" x="1514.3" y="-486.6" font-family="Helvetica,sans-Serif" font-size="14.00" style="">Nose &lt;= 1.5</text>
+<text text-anchor="middle" x="1514.3" y="-469.8" font-family="Helvetica,sans-Serif" font-size="14.00" style="">samples = 54</text>
+<text text-anchor="middle" x="1514.3" y="-453" font-family="Helvetica,sans-Serif" font-size="14.00" style="">value = [18, 7, 0, 29, 0, 0]</text>
+<text text-anchor="middle" x="1514.3" y="-436.2" font-family="Helvetica,sans-Serif" font-size="14.00" style="">class = vata+pitta</text>
+</g>
+<!-- 30&#45;&gt;32 -->
+<g id="edge32" class="edge" data-name="30-&gt;32">
+
+<path fill="none" stroke="black" d="M1510.98,-539.13C1511.36,-530.94 1511.76,-522.14 1512.15,-513.6" style=""/>
+<polygon fill="black" stroke="black" points="1515.66,-513.5 1512.62,-503.35 1508.66,-513.18 1515.66,-513.5" style=""/>
+</g>
+<!-- 33 -->
+<g id="node34" class="node" pointer-events="visible" data-name="33">
+
+<polygon fill="#efb286" stroke="black" points="1470.52,-392.1 1290.08,-392.1 1290.08,-316.7 1470.52,-316.7 1470.52,-392.1" style=""/>
+<text text-anchor="middle" x="1380.3" y="-375.4" font-family="Helvetica,sans-Serif" font-size="14.00" style="">A11earance of Hair &lt;= 0.5</text>
+<text text-anchor="middle" x="1380.3" y="-358.6" font-family="Helvetica,sans-Serif" font-size="14.00" style="">samples = 25</text>
+<text text-anchor="middle" x="1380.3" y="-341.8" font-family="Helvetica,sans-Serif" font-size="14.00" style="">value = [18, 7, 0, 0, 0, 0]</text>
+<text text-anchor="middle" x="1380.3" y="-325" font-family="Helvetica,sans-Serif" font-size="14.00" style="">class = vata</text>
+</g>
+<!-- 32&#45;&gt;33 -->
+<g id="edge33" class="edge" data-name="32-&gt;33">
+
+<path fill="none" stroke="black" d="M1469.31,-427.93C1457.71,-418.48 1445.12,-408.22 1433.16,-398.47" style=""/>
+<polygon fill="black" stroke="black" points="1435.37,-395.76 1425.4,-392.15 1430.94,-401.19 1435.37,-395.76" style=""/>
+</g>
+<!-- 36 -->
+<g id="node37" class="node" pointer-events="visible" data-name="36">
+
+<polygon fill="#399de5" stroke="black" points="1654.4,-383.8 1488.2,-383.8 1488.2,-325 1654.4,-325 1654.4,-383.8" style=""/>
+<text text-anchor="middle" x="1571.3" y="-367" font-family="Helvetica,sans-Serif" font-size="14.00" style="">samples = 29</text>
+<text text-anchor="middle" x="1571.3" y="-350.2" font-family="Helvetica,sans-Serif" font-size="14.00" style="">value = [0, 0, 0, 29, 0, 0]</text>
+<text text-anchor="middle" x="1571.3" y="-333.4" font-family="Helvetica,sans-Serif" font-size="14.00" style="">class = vata+pitta</text>
+</g>
+<!-- 32&#45;&gt;36 -->
+<g id="edge36" class="edge" data-name="32-&gt;36">
+
+<path fill="none" stroke="black" d="M1533.44,-427.93C1539.3,-416.7 1545.76,-404.33 1551.65,-393.04" style=""/>
+<polygon fill="black" stroke="black" points="1554.92,-394.34 1556.45,-383.85 1548.72,-391.1 1554.92,-394.34" style=""/>
+</g>
+<!-- 34 -->
+<g id="node35" class="node" pointer-events="visible" data-name="34">
+
+<polygon fill="#e58139" stroke="black" points="1449.4,-272.6 1283.2,-272.6 1283.2,-213.8 1449.4,-213.8 1449.4,-272.6" style=""/>
+<text text-anchor="middle" x="1366.3" y="-255.8" font-family="Helvetica,sans-Serif" font-size="14.00" style="">samples = 18</text>
+<text text-anchor="middle" x="1366.3" y="-239" font-family="Helvetica,sans-Serif" font-size="14.00" style="">value = [18, 0, 0, 0, 0, 0]</text>
+<text text-anchor="middle" x="1366.3" y="-222.2" font-family="Helvetica,sans-Serif" font-size="14.00" style="">class = vata</text>
+</g>
+<!-- 33&#45;&gt;34 -->
+<g id="edge34" class="edge" data-name="33-&gt;34">
+
+<path fill="none" stroke="black" d="M1375.6,-316.73C1374.2,-305.84 1372.67,-293.88 1371.26,-282.86" style=""/>
+<polygon fill="black" stroke="black" points="1374.69,-282.13 1369.95,-272.65 1367.75,-283.02 1374.69,-282.13" style=""/>
+</g>
+<!-- 35 -->
+<g id="node36" class="node" pointer-events="visible" data-name="35">
+
+<polygon fill="#9de539" stroke="black" points="1626.62,-272.6 1467.98,-272.6 1467.98,-213.8 1626.62,-213.8 1626.62,-272.6" style=""/>
+<text text-anchor="middle" x="1547.3" y="-255.8" font-family="Helvetica,sans-Serif" font-size="14.00" style="">samples = 7</text>
+<text text-anchor="middle" x="1547.3" y="-239" font-family="Helvetica,sans-Serif" font-size="14.00" style="">value = [0, 7, 0, 0, 0, 0]</text>
+<text text-anchor="middle" x="1547.3" y="-222.2" font-family="Helvetica,sans-Serif" font-size="14.00" style="">class = pitta</text>
+</g>
+<!-- 33&#45;&gt;35 -->
+<g id="edge35" class="edge" data-name="33-&gt;35">
+
+<path fill="none" stroke="black" d="M1436.37,-316.73C1455.52,-304.21 1476.83,-290.28 1495.62,-278" style=""/>
+<polygon fill="black" stroke="black" points="1497.6,-280.88 1504.05,-272.48 1493.77,-275.02 1497.6,-280.88" style=""/>
+</g>
+<!-- 38 -->
+<g id="node39" class="node" pointer-events="visible" data-name="38">
+
+<polygon fill="#399de5" stroke="black" points="1795.4,-495 1629.2,-495 1629.2,-436.2 1795.4,-436.2 1795.4,-495" style=""/>
+<text text-anchor="middle" x="1712.3" y="-478.2" font-family="Helvetica,sans-Serif" font-size="14.00" style="">samples = 73</text>
+<text text-anchor="middle" x="1712.3" y="-461.4" font-family="Helvetica,sans-Serif" font-size="14.00" style="">value = [0, 0, 0, 73, 0, 0]</text>
+<text text-anchor="middle" x="1712.3" y="-444.6" font-family="Helvetica,sans-Serif" font-size="14.00" style="">class = vata+pitta</text>
+</g>
+<!-- 37&#45;&gt;38 -->
+<g id="edge38" class="edge" data-name="37-&gt;38">
+
+<path fill="none" stroke="black" d="M1715.62,-539.13C1715.12,-528.24 1714.58,-516.28 1714.07,-505.26" style=""/>
+<polygon fill="black" stroke="black" points="1717.56,-504.88 1713.6,-495.05 1710.57,-505.2 1717.56,-504.88" style=""/>
+</g>
+<!-- 39 -->
+<g id="node40" class="node" pointer-events="visible" data-name="39">
+
+<polygon fill="#f0fbe1" stroke="black" points="2003.26,-503.3 1813.34,-503.3 1813.34,-427.9 2003.26,-427.9 2003.26,-503.3" style=""/>
+<text text-anchor="middle" x="1908.3" y="-486.6" font-family="Helvetica,sans-Serif" font-size="14.00" style="">Bone Structure &lt;= 0.5</text>
+<text text-anchor="middle" x="1908.3" y="-469.8" font-family="Helvetica,sans-Serif" font-size="14.00" style="">samples = 178</text>
+<text text-anchor="middle" x="1908.3" y="-453" font-family="Helvetica,sans-Serif" font-size="14.00" style="">value = [10, 87, 0, 71, 10, 0]</text>
+<text text-anchor="middle" x="1908.3" y="-436.2" font-family="Helvetica,sans-Serif" font-size="14.00" style="">class = pitta</text>
+</g>
+<!-- 37&#45;&gt;39 -->
+<g id="edge39" class="edge" data-name="37-&gt;39">
+
+<path fill="none" stroke="black" d="M1781.43,-539.13C1798.6,-529.32 1817.28,-518.64 1834.91,-508.56" style=""/>
+<polygon fill="black" stroke="black" points="1837.07,-511.36 1844.01,-503.35 1833.6,-505.28 1837.07,-511.36" style=""/>
+</g>
+<!-- 40 -->
+<g id="node41" class="node" pointer-events="visible" data-name="40">
+
+<polygon fill="#399de5" stroke="black" points="1839.4,-383.8 1673.2,-383.8 1673.2,-325 1839.4,-325 1839.4,-383.8" style=""/>
+<text text-anchor="middle" x="1756.3" y="-367" font-family="Helvetica,sans-Serif" font-size="14.00" style="">samples = 26</text>
+<text text-anchor="middle" x="1756.3" y="-350.2" font-family="Helvetica,sans-Serif" font-size="14.00" style="">value = [0, 0, 0, 26, 0, 0]</text>
+<text text-anchor="middle" x="1756.3" y="-333.4" font-family="Helvetica,sans-Serif" font-size="14.00" style="">class = vata+pitta</text>
+</g>
+<!-- 39&#45;&gt;40 -->
+<g id="edge40" class="edge" data-name="39-&gt;40">
+
+<path fill="none" stroke="black" d="M1857.26,-427.93C1840.23,-415.69 1821.3,-402.1 1804.49,-390.02" style=""/>
+<polygon fill="black" stroke="black" points="1806.07,-386.85 1795.91,-383.85 1801.99,-392.53 1806.07,-386.85" style=""/>
+</g>
+<!-- 41 -->
+<g id="node42" class="node" pointer-events="visible" data-name="41">
+
+<polygon fill="#d9f5b1" stroke="black" points="2047.26,-392.1 1857.34,-392.1 1857.34,-316.7 2047.26,-316.7 2047.26,-392.1" style=""/>
+<text text-anchor="middle" x="1952.3" y="-375.4" font-family="Helvetica,sans-Serif" font-size="14.00" style="">Com1lexion &lt;= 0.5</text>
+<text text-anchor="middle" x="1952.3" y="-358.6" font-family="Helvetica,sans-Serif" font-size="14.00" style="">samples = 152</text>
+<text text-anchor="middle" x="1952.3" y="-341.8" font-family="Helvetica,sans-Serif" font-size="14.00" style="">value = [10, 87, 0, 45, 10, 0]</text>
+<text text-anchor="middle" x="1952.3" y="-325" font-family="Helvetica,sans-Serif" font-size="14.00" style="">class = pitta</text>
+</g>
+<!-- 39&#45;&gt;41 -->
+<g id="edge41" class="edge" data-name="39-&gt;41">
+
+<path fill="none" stroke="black" d="M1923.08,-427.93C1926.49,-419.47 1930.16,-410.36 1933.71,-401.55" style=""/>
+<polygon fill="black" stroke="black" points="1937,-402.74 1937.49,-392.15 1930.51,-400.12 1937,-402.74" style=""/>
+</g>
+<!-- 42 -->
+<g id="node43" class="node" pointer-events="visible" data-name="42">
+
+<polygon fill="#b1d8f5" stroke="black" points="1945.48,-280.9 1763.13,-280.9 1763.13,-205.5 1945.48,-205.5 1945.48,-280.9" style=""/>
+<text text-anchor="middle" x="1854.3" y="-264.2" font-family="Helvetica,sans-Serif" font-size="14.00" style="">A11etite &lt;= 1.5</text>
+<text text-anchor="middle" x="1854.3" y="-247.4" font-family="Helvetica,sans-Serif" font-size="14.00" style="">samples = 43</text>
+<text text-anchor="middle" x="1854.3" y="-230.6" font-family="Helvetica,sans-Serif" font-size="14.00" style="">value = [10, 0, 0, 23, 10, 0]</text>
+<text text-anchor="middle" x="1854.3" y="-213.8" font-family="Helvetica,sans-Serif" font-size="14.00" style="">class = vata+pitta</text>
+</g>
+<!-- 41&#45;&gt;42 -->
+<g id="edge42" class="edge" data-name="41-&gt;42">
+
+<path fill="none" stroke="black" d="M1919.4,-316.73C1911.32,-307.73 1902.58,-298 1894.21,-288.67" style=""/>
+<polygon fill="black" stroke="black" points="1896.57,-286.06 1887.29,-280.95 1891.36,-290.74 1896.57,-286.06" style=""/>
+</g>
+<!-- 47 -->
+<g id="node48" class="node" pointer-events="visible" data-name="47">
+
+<polygon fill="#b6ec6b" stroke="black" points="2137.69,-280.9 1962.91,-280.9 1962.91,-205.5 2137.69,-205.5 2137.69,-280.9" style=""/>
+<text text-anchor="middle" x="2050.3" y="-264.2" font-family="Helvetica,sans-Serif" font-size="14.00" style="">Teeth and gums &lt;= 1.5</text>
+<text text-anchor="middle" x="2050.3" y="-247.4" font-family="Helvetica,sans-Serif" font-size="14.00" style="">samples = 109</text>
+<text text-anchor="middle" x="2050.3" y="-230.6" font-family="Helvetica,sans-Serif" font-size="14.00" style="">value = [0, 87, 0, 22, 0, 0]</text>
+<text text-anchor="middle" x="2050.3" y="-213.8" font-family="Helvetica,sans-Serif" font-size="14.00" style="">class = pitta</text>
+</g>
+<!-- 41&#45;&gt;47 -->
+<g id="edge47" class="edge" data-name="41-&gt;47">
+
+<path fill="none" stroke="black" d="M1985.21,-316.73C1993.29,-307.73 2002.02,-298 2010.39,-288.67" style=""/>
+<polygon fill="black" stroke="black" points="2013.24,-290.74 2017.32,-280.95 2008.03,-286.06 2013.24,-290.74" style=""/>
+</g>
+<!-- 43 -->
+<g id="node44" class="node" pointer-events="visible" data-name="43">
+
+<polygon fill="#399de5" stroke="black" points="1750.4,-161.4 1584.2,-161.4 1584.2,-102.6 1750.4,-102.6 1750.4,-161.4" style=""/>
+<text text-anchor="middle" x="1667.3" y="-144.6" font-family="Helvetica,sans-Serif" font-size="14.00" style="">samples = 23</text>
+<text text-anchor="middle" x="1667.3" y="-127.8" font-family="Helvetica,sans-Serif" font-size="14.00" style="">value = [0, 0, 0, 23, 0, 0]</text>
+<text text-anchor="middle" x="1667.3" y="-111" font-family="Helvetica,sans-Serif" font-size="14.00" style="">class = vata+pitta</text>
+</g>
+<!-- 42&#45;&gt;43 -->
+<g id="edge43" class="edge" data-name="42-&gt;43">
+
+<path fill="none" stroke="black" d="M1791.51,-205.53C1769.88,-192.9 1745.78,-178.83 1724.61,-166.47" style=""/>
+<polygon fill="black" stroke="black" points="1726.13,-163.3 1715.73,-161.28 1722.6,-169.35 1726.13,-163.3" style=""/>
+</g>
+<!-- 44 -->
+<g id="node45" class="node" pointer-events="visible" data-name="44">
+
+<polygon fill="#ffffff" stroke="black" points="1942.69,-169.7 1767.91,-169.7 1767.91,-94.3 1942.69,-94.3 1942.69,-169.7" style=""/>
+<text text-anchor="middle" x="1855.3" y="-153" font-family="Helvetica,sans-Serif" font-size="14.00" style="">Li1s &lt;= 1.0</text>
+<text text-anchor="middle" x="1855.3" y="-136.2" font-family="Helvetica,sans-Serif" font-size="14.00" style="">samples = 20</text>
+<text text-anchor="middle" x="1855.3" y="-119.4" font-family="Helvetica,sans-Serif" font-size="14.00" style="">value = [10, 0, 0, 0, 10, 0]</text>
+<text text-anchor="middle" x="1855.3" y="-102.6" font-family="Helvetica,sans-Serif" font-size="14.00" style="">class = vata</text>
+</g>
+<!-- 42&#45;&gt;44 -->
+<g id="edge44" class="edge" data-name="42-&gt;44">
+
+<path fill="none" stroke="black" d="M1854.64,-205.53C1854.71,-197.34 1854.79,-188.54 1854.87,-180" style=""/>
+<polygon fill="black" stroke="black" points="1858.37,-179.79 1854.96,-169.75 1851.37,-179.72 1858.37,-179.79" style=""/>
+</g>
+<!-- 45 -->
+<g id="node46" class="node" pointer-events="visible" data-name="45">
+
+<polygon fill="#e58139" stroke="black" points="1755.4,-58.6 1589.2,-58.6 1589.2,0.2 1755.4,0.2 1755.4,-58.6" style=""/>
+<text text-anchor="middle" x="1672.3" y="-41.8" font-family="Helvetica,sans-Serif" font-size="14.00" style="">samples = 10</text>
+<text text-anchor="middle" x="1672.3" y="-25" font-family="Helvetica,sans-Serif" font-size="14.00" style="">value = [10, 0, 0, 0, 0, 0]</text>
+<text text-anchor="middle" x="1672.3" y="-8.2" font-family="Helvetica,sans-Serif" font-size="14.00" style="">class = vata</text>
+</g>
+<!-- 44&#45;&gt;45 -->
+<g id="edge45" class="edge" data-name="44-&gt;45">
+
+<path fill="none" stroke="black" d="M1788.72,-94.32C1770.44,-84.26 1750.73,-73.4 1732.82,-63.53" style=""/>
+<polygon fill="black" stroke="black" points="1734.08,-60.23 1723.63,-58.47 1730.7,-66.36 1734.08,-60.23" style=""/>
+</g>
+<!-- 46 -->
+<g id="node47" class="node" pointer-events="visible" data-name="46">
+
+<polygon fill="#8139e5" stroke="black" points="1940.4,-58.6 1774.2,-58.6 1774.2,0.2 1940.4,0.2 1940.4,-58.6" style=""/>
+<text text-anchor="middle" x="1857.3" y="-41.8" font-family="Helvetica,sans-Serif" font-size="14.00" style="">samples = 10</text>
+<text text-anchor="middle" x="1857.3" y="-25" font-family="Helvetica,sans-Serif" font-size="14.00" style="">value = [0, 0, 0, 0, 10, 0]</text>
+<text text-anchor="middle" x="1857.3" y="-8.2" font-family="Helvetica,sans-Serif" font-size="14.00" style="">class = vata+kapha</text>
+</g>
+<!-- 44&#45;&gt;46 -->
+<g id="edge46" class="edge" data-name="44-&gt;46">
+
+<path fill="none" stroke="black" d="M1856.03,-94.32C1856.2,-85.92 1856.37,-76.96 1856.54,-68.49" style=""/>
+<polygon fill="black" stroke="black" points="1860.04,-68.54 1856.74,-58.47 1853.04,-68.4 1860.04,-68.54" style=""/>
+</g>
+<!-- 48 -->
+<g id="node49" class="node" pointer-events="visible" data-name="48">
+
+<polygon fill="#a8e850" stroke="black" points="2136.69,-169.7 1961.91,-169.7 1961.91,-94.3 2136.69,-94.3 2136.69,-169.7" style=""/>
+<text text-anchor="middle" x="2049.3" y="-153" font-family="Helvetica,sans-Serif" font-size="14.00" style="">Eyelashes &lt;= 0.5</text>
+<text text-anchor="middle" x="2049.3" y="-136.2" font-family="Helvetica,sans-Serif" font-size="14.00" style="">samples = 97</text>
+<text text-anchor="middle" x="2049.3" y="-119.4" font-family="Helvetica,sans-Serif" font-size="14.00" style="">value = [0, 87, 0, 10, 0, 0]</text>
+<text text-anchor="middle" x="2049.3" y="-102.6" font-family="Helvetica,sans-Serif" font-size="14.00" style="">class = pitta</text>
+</g>
+<!-- 47&#45;&gt;48 -->
+<g id="edge48" class="edge" data-name="47-&gt;48">
+
+<path fill="none" stroke="black" d="M2049.97,-205.53C2049.89,-197.34 2049.81,-188.54 2049.73,-180" style=""/>
+<polygon fill="black" stroke="black" points="2053.23,-179.72 2049.64,-169.75 2046.23,-179.79 2053.23,-179.72" style=""/>
+</g>
+<!-- 51 -->
+<g id="node52" class="node" pointer-events="visible" data-name="51">
+
+<polygon fill="#399de5" stroke="black" points="2320.4,-161.4 2154.2,-161.4 2154.2,-102.6 2320.4,-102.6 2320.4,-161.4" style=""/>
+<text text-anchor="middle" x="2237.3" y="-144.6" font-family="Helvetica,sans-Serif" font-size="14.00" style="">samples = 12</text>
+<text text-anchor="middle" x="2237.3" y="-127.8" font-family="Helvetica,sans-Serif" font-size="14.00" style="">value = [0, 0, 0, 12, 0, 0]</text>
+<text text-anchor="middle" x="2237.3" y="-111" font-family="Helvetica,sans-Serif" font-size="14.00" style="">class = vata+pitta</text>
+</g>
+<!-- 47&#45;&gt;51 -->
+<g id="edge51" class="edge" data-name="47-&gt;51">
+
+<path fill="none" stroke="black" d="M2113.09,-205.53C2134.72,-192.9 2158.82,-178.83 2179.99,-166.47" style=""/>
+<polygon fill="black" stroke="black" points="2182,-169.35 2188.87,-161.28 2178.47,-163.3 2182,-169.35" style=""/>
+</g>
+<!-- 49 -->
+<g id="node50" class="node" pointer-events="visible" data-name="49">
+
+<polygon fill="#f6fded" stroke="black" points="2134.69,-58.6 1959.91,-58.6 1959.91,0.2 2134.69,0.2 2134.69,-58.6" style=""/>
+<text text-anchor="middle" x="2047.3" y="-41.8" font-family="Helvetica,sans-Serif" font-size="14.00" style="">samples = 21</text>
+<text text-anchor="middle" x="2047.3" y="-25" font-family="Helvetica,sans-Serif" font-size="14.00" style="">value = [0, 11, 0, 10, 0, 0]</text>
+<text text-anchor="middle" x="2047.3" y="-8.2" font-family="Helvetica,sans-Serif" font-size="14.00" style="">class = pitta</text>
+</g>
+<!-- 48&#45;&gt;49 -->
+<g id="edge49" class="edge" data-name="48-&gt;49">
+
+<path fill="none" stroke="black" d="M2048.57,-94.32C2048.41,-85.92 2048.23,-76.96 2048.06,-68.49" style=""/>
+<polygon fill="black" stroke="black" points="2051.56,-68.4 2047.86,-58.47 2044.56,-68.54 2051.56,-68.4" style=""/>
+</g>
+<!-- 50 -->
+<g id="node51" class="node" pointer-events="visible" data-name="50">
+
+<polygon fill="#9de539" stroke="black" points="2318.4,-58.6 2152.2,-58.6 2152.2,0.2 2318.4,0.2 2318.4,-58.6" style=""/>
+<text text-anchor="middle" x="2235.3" y="-41.8" font-family="Helvetica,sans-Serif" font-size="14.00" style="">samples = 76</text>
+<text text-anchor="middle" x="2235.3" y="-25" font-family="Helvetica,sans-Serif" font-size="14.00" style="">value = [0, 76, 0, 0, 0, 0]</text>
+<text text-anchor="middle" x="2235.3" y="-8.2" font-family="Helvetica,sans-Serif" font-size="14.00" style="">class = pitta</text>
+</g>
+<!-- 48&#45;&gt;50 -->
+<g id="edge50" class="edge" data-name="48-&gt;50">
+
+<path fill="none" stroke="black" d="M2116.98,-94.32C2135.72,-84.16 2155.95,-73.2 2174.3,-63.26" style=""/>
+<polygon fill="black" stroke="black" points="2176.01,-66.31 2183.13,-58.47 2172.67,-60.16 2176.01,-66.31" style=""/>
+</g>
+<!-- 53 -->
+<g id="node54" class="node" pointer-events="visible" data-name="53">
+
+<polygon fill="#eef7fd" stroke="black" points="2377.26,-725.7 2187.34,-725.7 2187.34,-650.3 2377.26,-650.3 2377.26,-725.7" style=""/>
+<text text-anchor="middle" x="2282.3" y="-709" font-family="Helvetica,sans-Serif" font-size="14.00" style="">Teeth and gums &lt;= 1.5</text>
+<text text-anchor="middle" x="2282.3" y="-692.2" font-family="Helvetica,sans-Serif" font-size="14.00" style="">samples = 94</text>
+<text text-anchor="middle" x="2282.3" y="-675.4" font-family="Helvetica,sans-Serif" font-size="14.00" style="">value = [22, 0, 0, 29, 23, 20]</text>
+<text text-anchor="middle" x="2282.3" y="-658.6" font-family="Helvetica,sans-Serif" font-size="14.00" style="">class = vata+pitta</text>
+</g>
+<!-- 52&#45;&gt;53 -->
+<g id="edge53" class="edge" data-name="52-&gt;53">
+
+<path fill="none" stroke="black" d="M2282.3,-761.53C2282.3,-753.34 2282.3,-744.54 2282.3,-736" style=""/>
+<polygon fill="black" stroke="black" points="2285.8,-735.75 2282.3,-725.75 2278.8,-735.75 2285.8,-735.75" style=""/>
+</g>
+<!-- 62 -->
+<g id="node63" class="node" pointer-events="visible" data-name="62">
+
+<polygon fill="#52e891" stroke="black" points="2649.4,-725.7 2483.2,-725.7 2483.2,-650.3 2649.4,-650.3 2649.4,-725.7" style=""/>
+<text text-anchor="middle" x="2566.3" y="-709" font-family="Helvetica,sans-Serif" font-size="14.00" style="">Li1s &lt;= 0.5</text>
+<text text-anchor="middle" x="2566.3" y="-692.2" font-family="Helvetica,sans-Serif" font-size="14.00" style="">samples = 71</text>
+<text text-anchor="middle" x="2566.3" y="-675.4" font-family="Helvetica,sans-Serif" font-size="14.00" style="">value = [0, 0, 63, 0, 0, 8]</text>
+<text text-anchor="middle" x="2566.3" y="-658.6" font-family="Helvetica,sans-Serif" font-size="14.00" style="">class = kapha</text>
+</g>
+<!-- 52&#45;&gt;62 -->
+<g id="edge62" class="edge" data-name="52-&gt;62">
+
+<path fill="none" stroke="black" d="M2377.66,-761.53C2408.62,-749.63 2442.91,-736.45 2473.66,-724.62" style=""/>
+<polygon fill="black" stroke="black" points="2475.01,-727.85 2483.09,-721 2472.5,-721.32 2475.01,-727.85" style=""/>
+</g>
+<!-- 54 -->
+<g id="node55" class="node" pointer-events="visible" data-name="54">
+
+<polygon fill="#e8f3fc" stroke="black" points="2284.48,-614.5 2102.13,-614.5 2102.13,-539.1 2284.48,-539.1 2284.48,-614.5" style=""/>
+<text text-anchor="middle" x="2193.3" y="-597.8" font-family="Helvetica,sans-Serif" font-size="14.00" style="">Com1lexion &lt;= 0.5</text>
+<text text-anchor="middle" x="2193.3" y="-581" font-family="Helvetica,sans-Serif" font-size="14.00" style="">samples = 74</text>
+<text text-anchor="middle" x="2193.3" y="-564.2" font-family="Helvetica,sans-Serif" font-size="14.00" style="">value = [22, 0, 0, 29, 23, 0]</text>
+<text text-anchor="middle" x="2193.3" y="-547.4" font-family="Helvetica,sans-Serif" font-size="14.00" style="">class = vata+pitta</text>
+</g>
+<!-- 53&#45;&gt;54 -->
+<g id="edge54" class="edge" data-name="53-&gt;54">
+
+<path fill="none" stroke="black" d="M2252.42,-650.33C2245.15,-641.42 2237.3,-631.79 2229.77,-622.55" style=""/>
+<polygon fill="black" stroke="black" points="2232.29,-620.1 2223.26,-614.55 2226.86,-624.52 2232.29,-620.1" style=""/>
+</g>
+<!-- 61 -->
+<g id="node62" class="node" pointer-events="visible" data-name="61">
+
+<polygon fill="#e5399d" stroke="black" points="2468.4,-606.2 2302.2,-606.2 2302.2,-547.4 2468.4,-547.4 2468.4,-606.2" style=""/>
+<text text-anchor="middle" x="2385.3" y="-589.4" font-family="Helvetica,sans-Serif" font-size="14.00" style="">samples = 20</text>
+<text text-anchor="middle" x="2385.3" y="-572.6" font-family="Helvetica,sans-Serif" font-size="14.00" style="">value = [0, 0, 0, 0, 0, 20]</text>
+<text text-anchor="middle" x="2385.3" y="-555.8" font-family="Helvetica,sans-Serif" font-size="14.00" style="">class = pitta+kapha</text>
+</g>
+<!-- 53&#45;&gt;61 -->
+<g id="edge61" class="edge" data-name="53-&gt;61">
+
+<path fill="none" stroke="black" d="M2316.89,-650.33C2328.01,-638.54 2340.31,-625.5 2351.39,-613.75" style=""/>
+<polygon fill="black" stroke="black" points="2354.15,-615.93 2358.46,-606.25 2349.05,-611.13 2354.15,-615.93" style=""/>
+</g>
+<!-- 55 -->
+<g id="node56" class="node" pointer-events="visible" data-name="55">
+
+<polygon fill="#84c2ef" stroke="black" points="2280.69,-503.3 2105.91,-503.3 2105.91,-427.9 2280.69,-427.9 2280.69,-503.3" style=""/>
+<text text-anchor="middle" x="2193.3" y="-486.6" font-family="Helvetica,sans-Serif" font-size="14.00" style="">Texture of Skin &lt;= 0.5</text>
+<text text-anchor="middle" x="2193.3" y="-469.8" font-family="Helvetica,sans-Serif" font-size="14.00" style="">samples = 40</text>
+<text text-anchor="middle" x="2193.3" y="-453" font-family="Helvetica,sans-Serif" font-size="14.00" style="">value = [11, 0, 0, 29, 0, 0]</text>
+<text text-anchor="middle" x="2193.3" y="-436.2" font-family="Helvetica,sans-Serif" font-size="14.00" style="">class = vata+pitta</text>
+</g>
+<!-- 54&#45;&gt;55 -->
+<g id="edge55" class="edge" data-name="54-&gt;55">
+
+<path fill="none" stroke="black" d="M2193.3,-539.13C2193.3,-530.94 2193.3,-522.14 2193.3,-513.6" style=""/>
+<polygon fill="black" stroke="black" points="2196.8,-513.35 2193.3,-503.35 2189.8,-513.35 2196.8,-513.35" style=""/>
+</g>
+<!-- 58 -->
+<g id="node59" class="node" pointer-events="visible" data-name="58">
+
+<polygon fill="#bd98f1" stroke="black" points="2608.52,-503.3 2428.08,-503.3 2428.08,-427.9 2608.52,-427.9 2608.52,-503.3" style=""/>
+<text text-anchor="middle" x="2518.3" y="-486.6" font-family="Helvetica,sans-Serif" font-size="14.00" style="">A11earance of Hair &lt;= 0.5</text>
+<text text-anchor="middle" x="2518.3" y="-469.8" font-family="Helvetica,sans-Serif" font-size="14.00" style="">samples = 34</text>
+<text text-anchor="middle" x="2518.3" y="-453" font-family="Helvetica,sans-Serif" font-size="14.00" style="">value = [11, 0, 0, 0, 23, 0]</text>
+<text text-anchor="middle" x="2518.3" y="-436.2" font-family="Helvetica,sans-Serif" font-size="14.00" style="">class = vata+kapha</text>
+</g>
+<!-- 54&#45;&gt;58 -->
+<g id="edge58" class="edge" data-name="54-&gt;58">
+
+<path fill="none" stroke="black" d="M2284.53,-542.24C2287.49,-541.21 2290.42,-540.19 2293.3,-539.2 2334,-525.19 2379.11,-510.48 2418.19,-497.99" style=""/>
+<polygon fill="black" stroke="black" points="2419.52,-501.24 2427.99,-494.86 2417.39,-494.57 2419.52,-501.24" style=""/>
+</g>
+<!-- 56 -->
+<g id="node57" class="node" pointer-events="visible" data-name="56">
+
+<polygon fill="#e58139" stroke="black" points="2231.4,-383.8 2065.2,-383.8 2065.2,-325 2231.4,-325 2231.4,-383.8" style=""/>
+<text text-anchor="middle" x="2148.3" y="-367" font-family="Helvetica,sans-Serif" font-size="14.00" style="">samples = 11</text>
+<text text-anchor="middle" x="2148.3" y="-350.2" font-family="Helvetica,sans-Serif" font-size="14.00" style="">value = [11, 0, 0, 0, 0, 0]</text>
+<text text-anchor="middle" x="2148.3" y="-333.4" font-family="Helvetica,sans-Serif" font-size="14.00" style="">class = vata</text>
+</g>
+<!-- 55&#45;&gt;56 -->
+<g id="edge56" class="edge" data-name="55-&gt;56">
+
+<path fill="none" stroke="black" d="M2178.19,-427.93C2173.61,-416.82 2168.57,-404.58 2163.95,-393.38" style=""/>
+<polygon fill="black" stroke="black" points="2167.07,-391.77 2160.03,-383.85 2160.6,-394.43 2167.07,-391.77" style=""/>
+</g>
+<!-- 57 -->
+<g id="node58" class="node" pointer-events="visible" data-name="57">
+
+<polygon fill="#399de5" stroke="black" points="2416.4,-383.8 2250.2,-383.8 2250.2,-325 2416.4,-325 2416.4,-383.8" style=""/>
+<text text-anchor="middle" x="2333.3" y="-367" font-family="Helvetica,sans-Serif" font-size="14.00" style="">samples = 29</text>
+<text text-anchor="middle" x="2333.3" y="-350.2" font-family="Helvetica,sans-Serif" font-size="14.00" style="">value = [0, 0, 0, 29, 0, 0]</text>
+<text text-anchor="middle" x="2333.3" y="-333.4" font-family="Helvetica,sans-Serif" font-size="14.00" style="">class = vata+pitta</text>
+</g>
+<!-- 55&#45;&gt;57 -->
+<g id="edge57" class="edge" data-name="55-&gt;57">
+
+<path fill="none" stroke="black" d="M2240.31,-427.93C2256,-415.69 2273.43,-402.1 2288.92,-390.02" style=""/>
+<polygon fill="black" stroke="black" points="2291.09,-392.77 2296.82,-383.85 2286.78,-387.25 2291.09,-392.77" style=""/>
+</g>
+<!-- 59 -->
+<g id="node60" class="node" pointer-events="visible" data-name="59">
+
+<polygon fill="#e58139" stroke="black" points="2601.4,-383.8 2435.2,-383.8 2435.2,-325 2601.4,-325 2601.4,-383.8" style=""/>
+<text text-anchor="middle" x="2518.3" y="-367" font-family="Helvetica,sans-Serif" font-size="14.00" style="">samples = 11</text>
+<text text-anchor="middle" x="2518.3" y="-350.2" font-family="Helvetica,sans-Serif" font-size="14.00" style="">value = [11, 0, 0, 0, 0, 0]</text>
+<text text-anchor="middle" x="2518.3" y="-333.4" font-family="Helvetica,sans-Serif" font-size="14.00" style="">class = vata</text>
+</g>
+<!-- 58&#45;&gt;59 -->
+<g id="edge59" class="edge" data-name="58-&gt;59">
+
+<path fill="none" stroke="black" d="M2518.3,-427.93C2518.3,-417.04 2518.3,-405.08 2518.3,-394.06" style=""/>
+<polygon fill="black" stroke="black" points="2521.8,-393.85 2518.3,-383.85 2514.8,-393.85 2521.8,-393.85" style=""/>
+</g>
+<!-- 60 -->
+<g id="node61" class="node" pointer-events="visible" data-name="60">
+
+<polygon fill="#8139e5" stroke="black" points="2786.4,-383.8 2620.2,-383.8 2620.2,-325 2786.4,-325 2786.4,-383.8" style=""/>
+<text text-anchor="middle" x="2703.3" y="-367" font-family="Helvetica,sans-Serif" font-size="14.00" style="">samples = 23</text>
+<text text-anchor="middle" x="2703.3" y="-350.2" font-family="Helvetica,sans-Serif" font-size="14.00" style="">value = [0, 0, 0, 0, 23, 0]</text>
+<text text-anchor="middle" x="2703.3" y="-333.4" font-family="Helvetica,sans-Serif" font-size="14.00" style="">class = vata+kapha</text>
+</g>
+<!-- 58&#45;&gt;60 -->
+<g id="edge60" class="edge" data-name="58-&gt;60">
+
+<path fill="none" stroke="black" d="M2580.42,-427.93C2601.82,-415.3 2625.66,-401.23 2646.61,-388.87" style=""/>
+<polygon fill="black" stroke="black" points="2648.56,-391.78 2655.39,-383.68 2645,-385.75 2648.56,-391.78" style=""/>
+</g>
+<!-- 63 -->
+<g id="node64" class="node" pointer-events="visible" data-name="63">
+
+<polygon fill="#e5399d" stroke="black" points="2645.62,-606.2 2486.98,-606.2 2486.98,-547.4 2645.62,-547.4 2645.62,-606.2" style=""/>
+<text text-anchor="middle" x="2566.3" y="-589.4" font-family="Helvetica,sans-Serif" font-size="14.00" style="">samples = 8</text>
+<text text-anchor="middle" x="2566.3" y="-572.6" font-family="Helvetica,sans-Serif" font-size="14.00" style="">value = [0, 0, 0, 0, 0, 8]</text>
+<text text-anchor="middle" x="2566.3" y="-555.8" font-family="Helvetica,sans-Serif" font-size="14.00" style="">class = pitta+kapha</text>
+</g>
+<!-- 62&#45;&gt;63 -->
+<g id="edge63" class="edge" data-name="62-&gt;63">
+
+<path fill="none" stroke="black" d="M2566.3,-650.33C2566.3,-639.44 2566.3,-627.48 2566.3,-616.46" style=""/>
+<polygon fill="black" stroke="black" points="2569.8,-616.25 2566.3,-606.25 2562.8,-616.25 2569.8,-616.25" style=""/>
+</g>
+<!-- 64 -->
+<g id="node65" class="node" pointer-events="visible" data-name="64">
+
+<polygon fill="#39e581" stroke="black" points="2830.4,-606.2 2664.2,-606.2 2664.2,-547.4 2830.4,-547.4 2830.4,-606.2" style=""/>
+<text text-anchor="middle" x="2747.3" y="-589.4" font-family="Helvetica,sans-Serif" font-size="14.00" style="">samples = 63</text>
+<text text-anchor="middle" x="2747.3" y="-572.6" font-family="Helvetica,sans-Serif" font-size="14.00" style="">value = [0, 0, 63, 0, 0, 0]</text>
+<text text-anchor="middle" x="2747.3" y="-555.8" font-family="Helvetica,sans-Serif" font-size="14.00" style="">class = kapha</text>
+</g>
+<!-- 62&#45;&gt;64 -->
+<g id="edge64" class="edge" data-name="62-&gt;64">
+
+<path fill="none" stroke="black" d="M2627.08,-650.33C2648.01,-637.7 2671.34,-623.63 2691.83,-611.27" style=""/>
+<polygon fill="black" stroke="black" points="2693.67,-614.24 2700.43,-606.08 2690.05,-608.25 2693.67,-614.24" style=""/>
+</g>
+</g>
+</svg>
