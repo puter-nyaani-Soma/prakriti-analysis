@@ -1,7 +1,6 @@
 #from sklearn.svm import LinearSVC
 from sklearn.tree import DecisionTreeClassifier
 
-
 from dotenv import load_dotenv
 import os
 
@@ -45,9 +44,9 @@ target=["vata","pitta","kapha","vata+pitta","vata+kapha","pitta+kapha"]
 export_graphviz(tree,out_file="tree.jpg",class_names=target,feature_names=dataset.columns[0:20],impurity=False,filled=True)#graph ku
 #output=int(tree.predict([[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]]))
 #print(output)
-#pickle.dump(tree,open('bodymodel.pl','wb'))
-#model=pickle.load(open('bodymodel.pl','rb'))
 print(confusion_matrix(y_test, tree_predictions))
 disp = ConfusionMatrixDisplay(confusion_matrix(y_test, tree_predictions),display_labels=target)
 disp.plot()
 plt.show()
+#pickle.dump(tree,open('bodymodel.pl','wb'))
+#model=pickle.load(open('bodymodel.pl','rb'))
