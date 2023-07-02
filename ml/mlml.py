@@ -1,5 +1,6 @@
 #from sklearn.svm import LinearSVC
 from sklearn.tree import DecisionTreeClassifier
+import tensorflow as tf
 
 from dotenv import load_dotenv
 import os
@@ -14,7 +15,7 @@ from sklearn.metrics import accuracy_score,confusion_matrix,ConfusionMatrixDispl
 import pandas as pd
 import pickle
 import matplotlib.pyplot as plt #for confusion matrix
-dataset = pd.read_csv(os.getenv("DATA"))
+dataset = pd.read_csv("ml/bodyfind.csv")
 X=dataset.iloc[:,:-1].values
 Y=dataset.iloc[:,20].values
 tree = DecisionTreeClassifier(random_state=0)
@@ -39,6 +40,7 @@ tree.fit(X_train,y_train)
 tree_predictions=tree.predict(X_test)
 #nb_predictions=NB.predict(X_test)
 #lr_predictions=lr.predict(X_test)
+tf.saved_model.save(tree,'/modelfile')
 
 target=["vata","pitta","kapha","vata+pitta","vata+kapha","pitta+kapha"]
 export_graphviz(tree,out_file="tree.jpg",class_names=target,feature_names=dataset.columns[0:20],impurity=False,filled=True)#graph ku

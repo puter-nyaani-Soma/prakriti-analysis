@@ -19,6 +19,19 @@ const Questionnaire = () => {
       <h1>Personal Characteristics Questionnaire</h1>
       <form onSubmit={handleSubmit}>
         {/* Question 1 */}
+        <div className="texts">
+          <h3>Name</h3>
+          <label >
+            <input type="text"
+            name="name"
+            onChange={handleInputChange}
+             />
+          </label>
+          <h3>Age</h3>
+          <label>
+            <input type="number" />
+            </label>
+        </div>
         <h3>1. Body Size</h3>
         <label>
           <input
