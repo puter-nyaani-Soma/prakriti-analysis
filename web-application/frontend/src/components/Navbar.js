@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from '../assets/logo.png';
 import './Navbar.css';
-
+import { Link } from 'react-router-dom';
 const Navbar = () => {
   return (
     <header>
@@ -11,8 +11,8 @@ const Navbar = () => {
          
         </div>
         <ul className="nav-list">
-          <li className="nav-item"><a href="#">Home</a></li>
-          <li className="nav-item"><a href="#">Find Your Body Type</a></li>
+          <li className="nav-item"><Link to ="/">Home</Link></li>
+          <li className="nav-item"><Link to="/find-your-body">Find Your Body Type</Link></li>
         </ul>
       </nav>
     </header>

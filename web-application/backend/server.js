@@ -3,6 +3,8 @@ const express = require('express');
 const app=express();
 const mongoose = require('mongoose');
 const routes = require('./routes/bodytyperoutes');
+const tf = require('@tensorflow/tfjs')
+
 
 app.use('/api/bodytype',routes)
 
@@ -22,3 +24,15 @@ mongoose.connect(process.env.MONGO_URI)
     console.log(`error : ${error.message}`)
 }
 )
+// async function loadModel() {
+//     const model = await tf.loadGraphModel('./model/saved_model.pb', ['serve'], 'serving_default');
+//     return model;
+//   }
+  
+//   // Example usage
+//   async function main() {
+//     const model = await loadModel();
+//     // Use the model for predictions or other operations
+//   }
+  
+//   main().catch(console.error);

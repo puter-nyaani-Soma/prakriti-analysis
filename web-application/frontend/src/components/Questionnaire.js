@@ -1,4 +1,22 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
+import * as tf from '@tensorflow/tfjs';
+import '@tensorflow-models/coco-ssd';
+
+
+import DoshaOverlay from "./DoshaOverlay.js";
+// async function loadModel() {
+//   await tf.setBackend('webgl'); // Set the preferred backend for TensorFlow.js
+
+//   const model = await tf.loadGraphModel('../../../ml/model.json'); // Load the TensorFlow.js model
+//   const cocoSsd = await cocoSsd.load(); // Load the Coco SSD model
+
+//   // Use the model for inference
+//   const imageElement = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+//   const predictions = await cocoSsd.detect(imageElement);
+
+//   console.log(predictions);
+// }
+
 
 
 const Questionnaire = () => {
@@ -13,8 +31,29 @@ const Questionnaire = () => {
     // Handle form submission logic here
     console.log(formData);
   };
+  const [showOverlay, setShowOverlay] = useState(false);
+  // const [dosha, setDosha] = useState('');
+
+  // Function to show/hide the overlay and set the dosha value
+  const toggleOverlay = (doshaValue) => {
+    // setDosha(doshaValue);
+    setShowOverlay(true);
+  };
+  // useEffect(() => {
+  //   loadModel();
+  // }, []);
+  
 
   return (
+    <div>
+      {/* Button to toggle the overlay */}
+      {/* <button style = {{zIndex: 999}} onClick={() => toggleOverlay('Vata')}>Show Dosha Overlay</button> */}
+
+      {/* Conditional rendering of the overlay */}
+      {/* {showOverlay && <DoshaOverlay />} */}
+  
+
+
     <div className="container">
       <h1>Personal Characteristics Questionnaire</h1>
       <form onSubmit={handleSubmit}>
@@ -78,7 +117,7 @@ const Questionnaire = () => {
             name="bodyWeight"
             value="moderate"
             onChange={handleInputChange}
-          />
+            />
           Moderate, no difficulties in gaining or losing weight
         </label>
         <label>
@@ -606,7 +645,7 @@ const Questionnaire = () => {
             name="likingTastes"
             value="bitter"
             onChange={handleInputChange}
-          />
+            />
           Sweet / Bitter / Astringent
         </label>
         <label>
@@ -622,6 +661,7 @@ const Questionnaire = () => {
         <input type="submit" value="Submit" />
       </form>
     </div>
+            </div>
   );
 };
 

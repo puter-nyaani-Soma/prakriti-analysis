@@ -1,0 +1,56 @@
+.home-page {
+    text-align: center;
+  }
+  
+  .hero-section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f1f1;
+  }
+  
+  .hero-text {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .hero-subtext {
+    font-size: 1.5rem;
+    color: #666;
+    margin-top: 1rem;
+  }
+  
+  .dosha-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 4rem;
+  }
+  
+  .dosha {
+    width: 30%;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .dosha:hover {
+    transform: translateY(-10px);
+  }
+  
+  .dosha-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .dosha-description {
+    font-size: 1rem;
+    color: #666;
+    margin-top: 1rem;
+  }
+  
