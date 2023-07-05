@@ -13,6 +13,7 @@
     "@tensorflow-models/coco-ssd": "^2.2.2",
     "@tensorflow/tfjs": "^2.8.6",
     "@tensorflow/tfjs-converter": "^3.3.0",
+    "axios": "^1.4.0",
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
     "mongoose": "^7.3.1"

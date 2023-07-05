@@ -14,7 +14,7 @@ def predict():
 
     # Make predictions using the loaded model
     
-    input_data = np.array(data['input'])
+    input_data = (data['input'])
 
     # Make predictions using the loaded model
   
