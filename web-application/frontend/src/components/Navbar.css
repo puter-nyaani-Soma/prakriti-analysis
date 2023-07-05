@@ -1,13 +1,18 @@
 header {
     background-color: #f8ffdb;
+    
     padding: 20px;
+
   }
   
   .navbar {
+    background-color: #f8ffdb;
+    
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
+    }
   
   .brand {
     display: flex;

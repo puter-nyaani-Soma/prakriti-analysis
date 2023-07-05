@@ -4,6 +4,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import HomePage from './HomePage';
 import Questionnaire from './components/Questionnaire';
+import DoshaPage from './DoshaPage';
 
 
 
@@ -11,7 +12,9 @@ import Questionnaire from './components/Questionnaire';
 
  
 
+
 function App() {
+ 
   return(
     
     
@@ -28,6 +31,11 @@ function App() {
         <Route path='find-your-body'
           element={<Questionnaire />}
           >
+        </Route>
+        <Route path='/Dosha'
+        element={<DoshaPage doshaName={'kaphaData'}/>}
+        >
+
         </Route>
 
 

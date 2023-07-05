@@ -1,10 +1,10 @@
 import React, { useState,useEffect } from "react";
-import * as tf from '@tensorflow/tfjs';
-import '@tensorflow-models/coco-ssd';
+// import * as tf from '@tensorflow/tfjs';
+// import '@tensorflow-models/coco-ssd';
 
 
-import DoshaOverlay from "./DoshaOverlay.js";
-// async function loadModel() {
+// import DoshaOverlay from "./DoshaOverlay.js";
+// // async function loadModel() {
 //   await tf.setBackend('webgl'); // Set the preferred backend for TensorFlow.js
 
 //   const model = await tf.loadGraphModel('../../../ml/model.json'); // Load the TensorFlow.js model

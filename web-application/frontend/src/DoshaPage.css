@@ -1,0 +1,35 @@
+.dosha-page {
+    padding: 2rem;
+  }
+  
+  .dosha-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .dosha-description {
+    font-size: 1.2rem;
+    color: #666;
+    margin-top: 1rem;
+  }
+  
+  .balance-tips-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #333;
+    margin-top: 2rem;
+  }
+  
+  .balance-tips-list {
+    font-size: 1.2rem;
+    color: #666;
+    list-style-type: disc;
+    padding-left: 2rem;
+    margin-top: 1rem;
+  }
+  
+  .balance-tips-list li {
+    margin-bottom: 0.5rem;
+  }
+  
