@@ -77,6 +77,6 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 
-If you have any questions or suggestions, please feel free to contact the project maintainer at [your-email@example.com](mailto:your-email@example.com).
+If you have any questions or suggestions, please feel free to contact the project maintainer at [sivabala2053@gmail.com](mailto:sivabala2053@gmail.com).
 
 Enjoy analyzing Prakriti data!
