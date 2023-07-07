@@ -7,12 +7,13 @@ router.get('/',(req, res) => {
 })
 
 router.post('/predict',async (req, res) => {
+    console.log(req.body)
     const requestData={
         input:[[1, 1, 0, 1, 1, 0, 2, 0, 0, 0, 2, 0, 0, 0, 1, 1, 0, 0, 1, 0]]
 
     }
     const response = await axios.post('http://127.0.0.1:5000/predict',requestData)
-    res.json(response.data)
+    //console.log(response)
 
 
     

@@ -4,7 +4,9 @@ const app=express();
 const mongoose = require('mongoose');
 const routes = require('./routes/bodytyperoutes');
 const tf = require('@tensorflow/tfjs')
-
+const bodyParser = require('body-parser');
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
 
 app.use('/api/bodytype',routes)
 
@@ -13,6 +15,7 @@ app.use((req,res,next)=>{
 })
 
 app.use(express.json());
+
 
 mongoose.connect(process.env.MONGO_URI)
 .then(

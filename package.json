@@ -1,0 +1,15 @@
+{
+  "name": "prakriti-analysis",
+  "version": "1.0.0",
+  "description": "Welcome to the Prakriti Analysis ML Model repository! This project focuses on developing a machine learning model for performing analysis and predictions related to the Prakriti domain. The model utilizes various ML techniques to analyze data and make insightful predictions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"npm run backend && npm run mlbackend",
+    "mlbackend":"cd ml && python -u \"d:\\prakriti-analysis\\ml\\prediction.py\" && cd.." ,
+    "backend":"cd web-application\\backend\\  && npm run dev && cd.. && cd .."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

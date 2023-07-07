@@ -26,10 +26,21 @@ const Questionnaire = () => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit =async (e) => {
     e.preventDefault();
     // Handle form submission logic here
     console.log(formData);
+    const response = await fetch('/api/bodytype/predict',
+    {
+        method: 'POST',
+        body:JSON.stringify(formData),
+        headers: {'Content-Type': 'application/json',  
+    }
+
+    
+        
+    })
+    console.log(response)
   };
   const [showOverlay, setShowOverlay] = useState(false);
   // const [dosha, setDosha] = useState('');
@@ -42,7 +53,7 @@ const Questionnaire = () => {
   // useEffect(() => {
   //   loadModel();
   // }, []);
-  
+ 
 
   return (
     <div>

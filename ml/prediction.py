@@ -1,7 +1,7 @@
 import tensorflow as tf
 from flask import Flask, request, jsonify
 import numpy as np
-loaded_model = tf.keras.models.load_model('ml/prakriti-model')
+loaded_model = tf.keras.models.load_model('d:/prakriti-analysis/ml/prakriti-model')
 x=loaded_model.predict([[1, 1, 0, 1, 1, 0, 2, 0, 0, 0, 2, 0, 0, 0, 1, 1, 0, 0, 1, 0]])
 
 # Create the Flask app
