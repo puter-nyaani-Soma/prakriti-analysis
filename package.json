@@ -7,7 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start":"npm run backend && npm run mlbackend",
     "mlbackend":"cd ml && python -u \"d:\\prakriti-analysis\\ml\\prediction.py\" && cd.." ,
-    "backend":"cd web-application\\backend\\  && npm run dev && cd.. && cd .."
+    "backend":"cd web-application\\backend\\  && npm run dev && cd.. && cd ..",
+    "frontend":"cd web-application\\frontend\\ && npm start"
+
   },
   "keywords": [],
   "author": "",

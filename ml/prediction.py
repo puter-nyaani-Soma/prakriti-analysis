@@ -11,29 +11,18 @@ app = Flask(__name__)
 def predict():
     # Get the prediction data from the request
     data = request.json
+    data=np.reshape(data,(1,20))
 
     # Make predictions using the loaded model
     
-    input_data = (data['input'])
+    #input_data = (data['input'])
 
     # Make predictions using the loaded model
   
-    predictions = np.argmax(loaded_model.predict(input_data))
+    predictions = np.argmax(loaded_model.predict(data))
     target=["vata","pitta","kapha","vata+pitta","vata+kapha","pitta+kapha"]
+    print(target[predictions])
     
-    match predictions:
-        case 0 :
-            predictions="vata"
-        case 1:
-            predictions="piita"
-        case 2:
-            predictions="kapha"
-        case 3:
-            predictions="vata+piita"
-        case 4:
-            predictions="vata+kapha"
-        case 5:
-            predictions="kapha+pitta"
         
         
 
@@ -42,7 +31,7 @@ def predict():
 
     # Return the predictions as a response
     response = {
-        'predictions': predictions
+        'predictions': target[predictions]
     }
     return jsonify(response)
 
