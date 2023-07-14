@@ -1,6 +1,6 @@
-# Prakriti Analysis ML Model (Still under Development)
+# Prakriti Analysis DL & ML Model (Still under Development)
 
-Welcome to the Prakriti Analysis DL Model repository! This project focuses on developing a machine learning model for performing analysis and predictions related to the Prakriti domain. The model utilizes various ML techniques to analyze data and make insightful predictions.
+Welcome to the Prakriti Analysis DL & ML Model repository! This project focuses on developing a machine learning model for performing analysis and predictions related to the Prakriti domain. The model utilizes various ML techniques to analyze data and make insightful predictions.
 
 ## Description
 
