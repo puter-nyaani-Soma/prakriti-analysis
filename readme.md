@@ -1,10 +1,10 @@
 # Prakriti Analysis ML Model (Still under Development)
 
-Welcome to the Prakriti Analysis ML Model repository! This project focuses on developing a machine learning model for performing analysis and predictions related to the Prakriti domain. The model utilizes various ML techniques to analyze data and make insightful predictions.
+Welcome to the Prakriti Analysis DL Model repository! This project focuses on developing a machine learning model for performing analysis and predictions related to the Prakriti domain. The model utilizes various ML techniques to analyze data and make insightful predictions.
 
 ## Description
 
-The Prakriti Analysis ML Model aims to provide valuable insights and predictions within the Prakriti domain. Prakriti refers to the individual constitution in Ayurveda, which determines one's physical, mental, and emotional characteristics. This ML model analyzes data related to Prakriti and provides predictions based on the available information.
+The Prakriti Analysis DL Model aims to provide valuable insights and predictions within the Prakriti domain. Prakriti refers to the individual constitution in Ayurveda, which determines one's physical, mental, and emotional characteristics. This ML model analyzes data related to Prakriti and provides predictions based on the available information.
 
 ## Features
 
@@ -14,6 +14,7 @@ The Prakriti Analysis ML Model aims to provide valuable insights and predictions
 - **Machine Learning Algorithms:** The model employs various ML algorithms, such as regression, classification, or clustering, to train predictive models based on Prakriti data.
 - **Model Evaluation:** The model assesses the performance of trained ML models using appropriate evaluation metrics.
 - **Prediction Generation:** Once the ML models are trained and evaluated, the model generates predictions or classifications based on new input data related to Prakriti.
+- **Deeplearning Algorithm:** The model employs deep learning algorithms to classify the prakriti
 - **Model Deployment:** The model provides guidelines or scripts for deploying the ML model into a production environment, allowing for real-time predictions or integration with other systems.
 
 ## Prerequisites
@@ -21,7 +22,7 @@ The Prakriti Analysis ML Model aims to provide valuable insights and predictions
 To utilize the Prakriti Analysis ML Model, ensure that you have the following prerequisites installed:
 
 - Python (v3.6 or higher)
-- Required Python libraries (NumPy, Pandas, Scikit-learn, etc.)
+- Required Python libraries (NumPy, Pandas, Scikit-learn,TensorFlow 2.0,Flask etc.)
 - Jupyter Notebook or any other IDE for running Python scripts
 
 ## Installation
@@ -54,9 +55,20 @@ jupyter notebook
 The project folder structure is organized as follows:
 
 ```
-prakriti-analysis-ml-model/
-  ├── results/                # has the various accuracies achieved
-  ├── models/                 # Trained ML models or model checkpoints
+prakriti-analysis
+  ├── ml/                         # has the Deep learning model and the server program which runs the machine learning prediction algorithm in flask server
+        ├── prakriti-model/       # has the saved tensorflow model
+        ├── results/              # has the results of using various ml models
+        ├── deeplearning.ipynb    # deep learning classification
+        ├── mlml.py               # machine learning classification 
+        ├── prediction.py         # python flask server
+        └── ...
+      
+  ├── web-application/  #has the web application made using MERN stack
+        ├── backend/ #has the backend for the web application
+        ├── frontend/ #has the frontend of the web application
+        └── ...
+
   ├── README.md               # Project readme file
   └── ...
 ```
