@@ -20,7 +20,7 @@ def predict():
     # Make predictions using the loaded model
   
     predictions = np.argmax(loaded_model.predict(data))
-    target=["vata","pitta","kapha","vata+pitta","vata+kapha","pitta+kapha"]
+    target=["Vata","Pitta","Kapha","vata+pitta","vata+kapha","pitta+kapha"]
     print(target[predictions])
     
         

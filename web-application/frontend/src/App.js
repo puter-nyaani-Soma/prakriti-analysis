@@ -1,5 +1,5 @@
 
-import { BrowserRouter, Route,Routes } from 'react-router-dom';
+import { BrowserRouter,Routes, Route,Navigate} from 'react-router-dom';
 import './App.css';
 import Navbar from './components/Navbar';
 import HomePage from './HomePage';
@@ -24,6 +24,8 @@ function App() {
         <Navbar />
       <div className="page">
       <Routes>
+        
+
         <Route path='/'
         element={<HomePage />}
         >
@@ -32,11 +34,9 @@ function App() {
           element={<Questionnaire />}
           >
         </Route>
-        <Route path='/Dosha'
-        element={<DoshaPage doshaName={'kaphaData'}/>}
-        >
-
-        </Route>
+        <Route path="/Dosha/:doshaName" element={<DoshaPage/>}/>
+        
+      
 
 
       </Routes>

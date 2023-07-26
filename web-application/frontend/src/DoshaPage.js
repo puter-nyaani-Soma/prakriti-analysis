@@ -1,70 +1,94 @@
-
-
-import React, { useState,useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import './DoshaPage.css';
+import { useParams } from 'react-router-dom';
 
-const DoshaPage = ({ doshaName }) => {
+const DoshaPage = () => {
   const [doshaData, setDoshaData] = useState(null);
+  const { doshaName } = useParams();
+  console.log(doshaName)
 
-  // Fetch dosha data from an API or any other source
-  // You can use useEffect hook to fetch the data
-
-  // Once you have the dosha data, update the state
   const updateDoshaData = (doshaName) => {
-    // Example data for Vata dosha
-    const kaphaData = {
-      name: 'Kapha',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    const vataData = {
+      name: 'Vata',
+      description: "Those with the vata dosha are usually described as slim, energetic, and creative. They’re known for thinking outside the box but can become easily distracted. What’s more, their mood is highly dependent on the weather, people around them, and foods they eat",
+      strengths:"Creative, energetic, enthusiastic, imaginative, quick-thinking.",
+      weakness: "forgetful, anxious, unstable mood, can get overwhelmed easily, highly sensitive to the cold, has trouble sleeping, irregular appetite and eating patterns, prone to digestive issues and gas, poor circulation",
       balanceTips: [
-        'Tip 1',
-        'Tip 2',
-        'Tip 3',
+        "Establish a routine and stick to it.",
+        "Keep warm and maintain a regular sleep schedule.",
+        "Practice calming activities like yoga, meditation, and deep breathing.",
+        "Eat warm, nourishing foods and avoid excessive cold or raw foods.",
+        "Use warming spices like ginger, cinnamon, and cumin in cooking."
       ],
     };
     const pittaData = {
       name: 'Pitta',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+      description: "Those with the pitta dosha are often described as focused, determined, and organized. They have a strong digestion and tend to be of medium build. However, they can be prone to anger and irritability when out of balance.",
+      strengths: "Intelligent, focused, determined, organized, good digestion.",
+      weakness: "Anger, irritability, impatience, inflammation, heartburn, skin rashes, excessive body heat.",
       balanceTips: [
-        'Tip 1',
-        'Tip 2',
-        'Tip 3',
+        "Avoid excessive heat and direct sunlight.",
+        "Engage in cooling activities like swimming or spending time in nature.",
+        "Practice moderation in work and exercise.",
+        "Choose cooling foods like fresh fruits, vegetables, and herbs.",
+        "Practice relaxation techniques and avoid situations that provoke anger."
       ],
-
     };
-    const vataData = {
-      name: 'Vata',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    
+    const kaphaData = {
+      name: 'Kapha',
+      description: "Those with the kapha dosha are often described as calm, compassionate, and strong. They have a sturdy build and good endurance. However, they can be prone to weight gain and lethargy when out of balance.",
+      strengths: "Calm, compassionate, strong, stable, good endurance.",
+      weakness: "Weight gain, lethargy, attachment, congestion, slow digestion, difficulty letting go.",
       balanceTips: [
-        'Tip 1',
-        'Tip 2',
-        'Tip 3',
+        "Engage in regular exercise to stimulate metabolism and circulation.",
+        "Avoid excessive consumption of heavy, oily, and sweet foods.",
+        "Incorporate spices like ginger, black pepper, and turmeric into meals.",
+        "Stay mentally active and challenge yourself with new experiences.",
+        "Practice invigorating activities like brisk walking, dancing, or yoga."
       ],
-
     };
-
-
-    // Update the state with the dosha data
-    setDoshaData(doshaName);
+  
+    let selectedDoshaData = null;
+  
+    if (doshaName === 'Vata') {
+      selectedDoshaData = vataData;
+    } else if (doshaName === 'Pitta') {
+      selectedDoshaData = pittaData;
+    } else if (doshaName === 'Kapha') {
+      selectedDoshaData = kaphaData;
+    }
+  
+    setDoshaData(selectedDoshaData);
   };
+  
 
-  // Call the updateDoshaData function when the component mounts
   useEffect(() => {
     updateDoshaData(doshaName);
   }, [doshaName]);
 
-  // Render loading state if doshaData is not available yet
+  useEffect(() => {
+    if (doshaData) {
+      console.log(doshaData);
+    }
+  }, [doshaData]);
+
   if (!doshaData) {
     return <div>Loading...</div>;
   }
 
-  // Extract dosha data from the state
-  const { name, description, balanceTips } = doshaData;
+  const { name, description,strengths,balanceTips,weakness } = doshaData;
+  
 
   return (
     <div className="dosha-page">
       <h1 className="dosha-title">{name} Dosha</h1>
       <div className="dosha-description">{description}</div>
       <div className="balance-tips">
+      <h2 className="balance-tips-title">Strengths:</h2>
+      <div className="dosha-description">{strengths}</div>
+      <h2 className="balance-tips-title">Weakness:</h2>
+      <div className="dosha-description">{weakness}</div>
         <h2 className="balance-tips-title">Tips to Balance {name} Dosha:</h2>
         <ul className="balance-tips-list">
           {balanceTips.map((tip, index) => (
@@ -77,65 +101,3 @@ const DoshaPage = ({ doshaName }) => {
 };
 
 export default DoshaPage;
-
-// const DoshaPage = ({ doshaName }) => {
-  
-
-//   const dosha = {
-//     Vata:{
-//     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mollis augue id nunc rutrum, in varius ipsum egestas. Sed fermentum ligula ut risus condimentum rhoncus.',
-//     balanceTips: [
-//       'Eat warm, cooked foods.',
-//       'Keep a regular daily routine.',
-//       'Practice gentle and calming exercises like yoga and walking.',
-//       // Add more tips here as needed
-//     ],
-//   },
-//    Pitta:{
-//     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mollis augue id nunc rutrum, in varius ipsum egestas. Sed fermentum ligula ut risus condimentum rhoncus.',
-//     balanceTips: [
-//       'Eat warm, cooked foods.',
-//       'Keep a regular daily routine.',
-//       'Practice gentle and calming exercises like yoga and walking.',
-//       // Add more tips here as needed
-//     ],
-//   },
-//     Kapha:{
-//     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mollis augue id nunc rutrum, in varius ipsum egestas. Sed fermentum ligula ut risus condimentum rhoncus.',
-//     balanceTips: [
-//       'Eat warm, cooked foods.',
-//       'Keep a regular daily routine.',
-//       'Practice gentle and calming exercises like yoga and walking.',
-//       // Add more tips here as needed
-//     ],
-//   },
-
-//   };
-  
-  
-  
-  
-//   const selectedDosha=dosha[doshaName];
-  
-//   if (!selectedDosha) {
-//     return <div>Invalid dosha name.</div>;
-//   }
-//   const { description, balanceTips } = selectedDosha;
-
-//   return (
-//     <div className="dosha-page">
-//       <h1 className="dosha-title">{selectedDosha} Dosha</h1>
-//       <div className="dosha-description">{description}</div>
-//       <div className="balance-tips">
-//         <h2 className="balance-tips-title">Tips to Balance {selectedDosha} Dosha:</h2>
-//         <ul className="balance-tips-list">
-//           {balanceTips.map((tip, index) => (
-//             <li key={index}>{tip}</li>
-//           ))}
-//         </ul>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default DoshaPage;

@@ -109,3 +109,44 @@ input[type="submit"]:hover {
   justify-content: center;
   color: #fff;
 }
+.dosha-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  z-index: 999;
+}
+
+.dosha-overlay h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.dosha-overlay p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.dosha-overlay button {
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.dosha-overlay button:hover {
+  background-color: #2980b9;
+}
+
