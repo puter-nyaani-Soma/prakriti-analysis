@@ -5,14 +5,6 @@ import Navbar from './components/Navbar';
 import HomePage from './HomePage';
 import Questionnaire from './components/Questionnaire';
 import DoshaPage from './DoshaPage';
-
-
-
-
-
- 
-
-
 function App() {
  
   return(

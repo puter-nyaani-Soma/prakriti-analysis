@@ -8,7 +8,7 @@ const HomePage = () => {
       <div className="hero-section">
         <h1 className="hero-text">Prakriti</h1>
         <h7 className="hero-subtext">Discover Your Dosha</h7>
-        <p>-Know your body</p>
+        <h7 className="hero-subtext">-Know your body</h7>
 
       </div>
       <div className="dosha-section">
